@@ -1,0 +1,177 @@
+@charset "utf-8";
+@import url("category.css");
+@import url("user.css");
+@import url("config.css");
+@import url("dashboard.css");
+@import url("product.css");
+@import url("event.css");
+@import url("branch.css");
+@import url("statistics.css");
+@import url("forum.css");
+@import url("message.css");
+@import url("sub.css");
+@import url("class/class.css");
+* {padding:0; margin:0}
+
+/* reset */
+body, th, td, textarea, h1, h2, h3, h4, h5, h6 {font-family: 'Lucida Sans Unicode','Lucida Grande',tahoma,verdana,arial,sans-serif;font-size:11px;color:#535353}
+body, th, td, textarea {line-height:14px}
+body {margin:0;padding:0;text-align:center;background-color: #efefef}
+img, fieldset {border:0} 
+ul li {list-style:none;}
+select, input {color:#535353; font-size:1.00em}
+address,em {font-style:normal}
+button  {border:none;background:none; cursor:pointer}
+hr, legend {display:none}
+p, h1, h2, h3, h4, h5, h6, form, input, ul, li, dl, dt, dd {margin:0; padding:0}
+p {word-wrap:break-word}
+a img {vertical-align:top}
+a {color: #535353;text-decoration:none}
+a:link {color: #535353;text-decoration:none}
+a:visited {color: #535353;text-decoration:none}"css/class/class.css"
+a:hover	{color: #535353;text-decoration:underline}
+input {outline:0}
+
+body {width:100%;overflow:hidden;overflow-y:auto}
+.hidden {display:none}
+h4 {font-size: 12px;padding-bottom: 14px}
+#overflow_wrap {width:100%;overflow:hidden;display:inline-block}
+#header {width:100%;height:75px;display:inline-block}
+#header .top {width:100%;height:40px;background:url(../images/header_top.png) left top repeat-x;display:inline-block}
+#header .top .logo {float:left;width:118px;height:30px;margin:5px 0 0 10px;background:url(../images/logo.png) left top no-repeat;display:inline}
+#header .top .gnb {float:right;margin:12px 20px 0 0;color:#fff}
+#header .top .gnb li {float:left;margin-right:10px}
+#header .top .gnb li a {font:12px "Lucida Sans Unicode", "Lucida Grande", Arial;color:#ededed}
+#header .top .icon {height:16px;padding-left:20px;display:inline-block}
+#header .top .site {background:url(../images/icons/site.png) left top no-repeat}
+#header .top .site:hover  {background:url(../images/icons/site-hover.png) left top no-repeat}
+#header .top .chain {background:url(../images/icons/chain.png) left top no-repeat}
+#header .top .chain:hover  {background:url(../images/icons/chain-hover.png) left top no-repeat}
+#header .top .user {background:url(../images/icons/user.png) left top no-repeat}
+#header .top .user:hover {background:url(../images/icons/user-hover.png) left top no-repeat}
+#header .top .gear {background:url(../images/icons/gear.png) left top no-repeat}
+#header .top .gear:hover  {background:url(../images/icons/gear-hover.png) left top no-repeat}
+#header .top .exit {background:url(../images/icons/exit.png) left top no-repeat}
+#header .top .exit:hover  {background:url(../images/icons/exit-hover.png) left top no-repeat}
+#header .bottom {position:relative;width:100%;height:30px;background:url(../images/header_nav.png) left top repeat-x;border-top:5px solid #022525;border-bottom:2px solid #fca600;display:inline-block}
+#header .bottom .btn_nav {float:left;width:20px;height:30px;background:url(../images/btn_nav.png) left top repeat-x;display:inline-block}
+#header .bottom .btn_prev {position:absolute;top:0;left:0;width:30px;background:url(../images/shadow_1.png) right top no-repeat;z-index:999}
+#header .bottom .btn_next {position:absolute;top:0;right:0;width:30px;background:url(../images/shadow_2.png) left top no-repeat;z-index:999}
+#header .bottom .btn_next strong {width:10px;height:14px;margin:6px 2px 0 0;background:url(../images/arrow_next.png) left top no-repeat;display:inline-block}
+#header .bottom .btn_prev strong {width:10px;height:14px;margin:6px 0 0 2px;background:url(../images/arrow_prev.png) left top no-repeat;display:inline-block}
+#header .bottom .btn_next .btn_nav {float:right}
+#header .bottom .btn_nav img {float:left;margin-top:7px;margin-left:4px}
+#header .bottom #main_nav {width:99999px;margin:0 25px;text-align:left;display:inline-block;position:relative}
+#header .bottom #main_nav li {float:left;margin:0 1px;text-align:center}
+#header .bottom #main_nav li a {width:185px;padding:0px;margin:0px;height:30px;font:12px/30px "Lucida Sans Unicode", "Lucida Grande", Arial;color:#fff;display:inline-block}
+#header .bottom #main_nav li a:hover, #header .bottom .main_nav li.active a {background:url(../images/nav_hover.png) left top repeat-x;border:0}
+.overflow_wrap {min-width:75%;margin-left:20px}
+
+
+/*
+#header .bottom #main_nav li.dropdown {display:inline-block}
+#header .bottom #main_nav li.dropdown ul {display:none}
+#header .bottom #main_nav li.dropdown:hover ul {display:inline}
+*/
+
+<<<<<<< .mine
+#header .bottom #main_nav ul {position:absolute;width:192px;margin-top:3px;background: #f2f2f2;z-index:5 !important;border: 1px solid #9F9F9F;border-top:0}
+#header .bottom #main_nav ul  li {float:none;width:192px;padding:0 !important;margin:0 0 2px 0 !important;display:inline;text-align:left !important}
+#header .bottom #main_nav ul  li a {width:182px;padding:0 0 0 10px;text-decoration:none;color:#363636 !important;font:12px/30px "Lucida Sans Unicode", "Lucida Grande", Arial !important;display:inline-block;background: #f7f7f7 !important;border-radius:0 !important}
+=======
+#header .bottom #main_nav ul {position:absolute;width:192px;margin-top:2px;background: #f2f2f2;z-index:5 !important;border: 1px solid #9F9F9F;border-top:0}
+#header .bottom #main_nav ul  li {float:none;width:192px;padding:0 !important;margin:0 0 2px 0 !important;display:inline;text-align:left !important}
+#header .bottom #main_nav ul  li a {width:190px;padding:0 0 0 10px;text-decoration:none;color:#363636 !important;font:12px/30px "Lucida Sans Unicode", "Lucida Grande", Arial !important;display:inline-block;background: #f7f7f7 !important;border-radius:0 !important;text-align:left !important}
+>>>>>>> .r1506
+#header .bottom #main_nav ul  li a:hover {background:#D7D7D7 !important;color:#363636 !important;text-decoration:underline}
+#header .bottom #main_nav ul  li.current{float:left;width:162px;margin:0 0 0 0 !important}
+#header .bottom #main_nav ul  li.current a {background:#212936;color:#363636 !important} 
+.menu_container {padding:0;width:100%;display:inline-block}
+
+#container {width:100%;padding:0;text-align:center;overflow:hidden;background:url(../images/shadow.png) center top no-repeat;display:inline-block}
+#container .container_wrap {width:100%;min-width:1462px;overflow:hidden;display:inline-block}
+#container  .wrap {float:left;width:85%;padding: 40px 0 20px 30px;min-height:100%;text-align:left;margin:0 auto;display:inline-block}
+#container .breadcrumb {display:inline-block}
+#container .breadcrumb li {float:left;margin-right:5px;font:12px "Lucida Sans Unicode"}
+#container .breadcrumb li a:hover {text-decoration:underline}
+#container .top {width:100%;margin-top:10px;margin-bottom:20px;display:inline-block}
+#container h3.title {float:left;font:26px Tahoma, Arial, Serif;color:#0ba2a2;display:inline}
+#container .new_post, #container .btn_back_list {float:left;margin-top:4px;margin-left:40px;padding:4px 5px;font:12px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline}
+#container .new_post:hover, #container .btn_back_list:hover {text-decoration:none;color:#Dc4e22 !important}
+#container .top_2 {width:100%;margin-top:15px;margin-bottom:5px;display:inline-block}
+#container .top_2 .apply_action {float:left;margin-right:20px}
+#container .top_2 .apply_filter {float:left;margin-right:10px}
+#container .top_2 .btn_apply {margin-left:5px;padding:0 5px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px}
+#container .top_2 .show_rows {float:right}
+#container .top_2 .btn_apply:hover, #container .search .btn_apply:hover, #container .bottom .btn_apply:hover {text-decoration:none;color:#Dc4e22 !important}
+#container .top_2 .apply_filter select {min-width:200px;height:18px;border: 1px solid #CCCCCC;}
+.apply_action select {min-width:50px;height:18px;line-height:20px;border: 1px solid #CCCCCC;}
+#container .bottom {width:100%;margin-top:15px;margin-bottom:5px;display:inline-block}
+#container .bottom .apply_action {float:left;margin-right:20px}
+#container .bottom .btn_apply {margin-left:5px;padding:0 5px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px}
+#container .search .apply_action {margin-right:20px}
+#container .btn_apply {margin-left:5px;padding:0 5px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px}
+#container .btn_apply:hover {text-decoration:none;color:#Dc4e22 !important}
+#container .search {float:right}
+#container .bottom_2 {width:100%;margin-top:5px;margin-bottom:5px;text-align:center;display:inline-block}
+#container .bottom_2 .pagination {margin:0 auto;display:inline-block}
+#container .bottom_2 .pagination li {display:inline-block}
+/* #container .bottom_2 .pagination li.empty {color:#7b7b7b}
+#container .bottom_2 .pagination li.active {background-color:#535353;color:#fff}
+*/
+#container .sort_view {width:100%;margin-top:10px;display:inline}
+#container .sort_view li {float:left;margin-right:10px;padding-left:10px;background: url(../images/sep_comment.gif) no-repeat 0 2px}
+#container .sort_view li.all {background:none;padding-left:0}
+#container .sort_view li.active {font-weight:bold}
+#container .sort_view a:hover {color:#353535}
+
+#container .post_table {width:100%;margin-top:2px;text-align:center;border-bottom:1px solid #dedede}
+#container .post_table  thead th {height:30px;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;}
+#container .post_table  tbody td {height:24px;padding:10px 5px 10px 5px;border-top:1px solid #dedede;border-left:1px solid #dedede;background-color:#fff}
+#container .post_table  tbody td.last {border-right:1px solid #dedede}
+#container .post_table a:hover {text-decoration:underline}
+
+.pagination {clear: both; font-size: 11px;padding: 24px 0 0; text-align: center;width: 100%;margin:0 auto}
+.pagination span {color: #777777; display: inline-block;margin: 0 2px;padding: 1px 4px 2px}
+.pagination a {color: #828282;display: inline-block; margin: 0 2px; padding: 1px 4px 2px;text-decoration: none}
+.pagination a:hover, .pagination a:active {color: #3C7CB4}
+.pagination a.num {background: none repeat scroll 0 0 #E8E8E7; border: 1px solid #C2C2C1}
+.pagination a.num:hover, .pagination a.num:active {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #C2C2C1color: #777777}
+.pagination a.current {background: none repeat scroll 0 0 #3C7CB4; border: 1px solid #2E689A;color: #FFFFFF}
+.pagination a.activity {  color: #3C7CB4}
+
+.gray {background:#f7f7f6 !important}
+.white {background:#FFF !important}
+
+.popup_size {width:60px !important}
+.editor_mode p {float:left;margin-right:40px}
+.editor_mode label {width:80px;display:inline-block}
+.text_edit_area {width:900px;height:400px;border:1px solid #ccc;background-color:#fff;display:inline-block}
+
+
+.aside {float:left;width:180px;margin-top:2px;padding-top: 27px;background: url(../images/bg_side_area.gif) repeat-y 0 0;overflow:hidden}
+.side_opener {cursor: pointer;left: 178px;position: absolute;top: 120px}
+.side_opener2 {cursor: pointer;display: none;left: 8px;position: absolute;top: 120px}
+.side_menu {margin: 0 10px 0 10px;width: 90%;text-align:left}
+.side_menu .lv_1 a {background: url(../images/control-stop-square-small.png) no-repeat 0 8px;color: #1D1D1D;font-size: 11px;font-weight: bold; padding: 7px 0 16px 17px;text-decoration: none;width: 140px}
+.aside .title {color: #242424;font-size: 16px;font-weight: bold; padding-bottom: 15px;text-transform: uppercase;word-wrap: break-word;text-align:left;margin-left:20px}
+.side_menu a.current {color: #DC4E22 !important}
+.side_menu a {display: block; vertical-align: top;word-wrap: break-word}
+.side_menu .lv_1 {background: url(../images/bg_page_menu_line.gif) repeat-x scroll 0 0 transparent !important;position: relative}
+
+/* web editor */
+.CodeMirror {width:900px;height: 300px;margin-bottom:20px;padding:5px;border: 1px solid #cecece;background-color:#fff}
+iframe.preview {width:900px;height: 300px;padding:5px;border: 1px solid #cecece;background-color:#fff}
+
+#footer {width:100%;padding:10px 0;background-color:#1f1f21;color:#fff;text-align:left;display:inline-block;clear:both;border-top: 2px solid #FCA600}
+#footer .copyright {margin-left:10px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;color:#efefef}
+
+
+.option_btns li {display:inline}
+
+/* ERROR */
+
+label.error {color:#ce1f1f !important;margin-left:10px;}
+div.error { display: none; clear: both; }
+input.checkbox { border: none }
+input.error, textarea.error, select.error { border: 1px solid #ce1f1f !important; }

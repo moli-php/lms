@@ -1,0 +1,9 @@
+/*statistics*/
+#container .table_container{width:95%;padding:0 10px 10px;border:1px solid #777}
+#container table.stat_table{padding:20px;text-align:center}
+#container table.stat_table td{height:60px}
+#container table.stat_table td.graph_side{border-left:1px solid #777}
+#container table.stat_table td.graph_bottom{height:10px;border-top:1px solid #777}
+#container h4.data_header{margin:20px 0 10px;padding:10px;background:url(../images/table_headbg.png) repeat-x scroll left bottom;background-color:#fff;border:1px solid #999;text-align:left}
+#container .apply_action a.btn_view{margin-left:5px;padding:4px 20px 5px;font:12px "Lucida Sans Unicode", "Lucida Grande", Arial;font-weight:bold;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px}
+#container .apply_action a.btn_view:hover{color:#Dc4e22 !important;text-decoration:none}

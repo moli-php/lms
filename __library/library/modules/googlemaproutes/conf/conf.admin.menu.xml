@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adminmenus>
+    <menu name="Google Map Routes" param="GooglemaproutesPageSettings">
+    </menu>
+</adminmenus>

@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+#main	{zoom:1;}
+#main_subpage	{zoom:1;}
+#middle_subpage	{zoom:1;}
+.edit_form li {zoom:1;}
+.selected_list		{zoom:1;}
+.book_mark	{zoom:1}
+
+/* for GNB */
+/* global > settings > sub navi */
+
+#sub_site {margin-left:-265px;}
+#sub_exte {margin-left:-195px;}
+#sub_sett {margin-left:-107px;}
+
+.global_menu {width:650px;}
+.global_menu .builder li {float:left;}
+.global_menu .user li {float:left;}
+.global_menu .icon_update {padding-right:0 !important;display:inline;}
+.icon_update span {height:14px;padding-left:0 !important;height:15px;}
+
+/* menus */
+.main_menu li  {padding:0;height:31px;}
+.main_menu li .key_menu {display:block;width:117px;height:25px;padding:8px 0 0 0;}
+.main_menu li a.key_menu:hover {background:url(../images/menu/mn_hover.gif) no-repeat;z-index:200;cursor:pointer;}
+
+
+
+.table_header_area	{zoom:1;}
+.table_header_area li.alignment 		{position:absolute;right:30px;margin-top:5px;}
+.table_header_area li.alignment select	{margin-bottom:0}
+.table_header_area .row_1 li.note	{padding-top:4px}
+.box_01	{zoom:1}
+.set_seo li.description	{zoom:1}
+.set_seo li.additional {zoom:1}
+#article_preview .header {zoom:1}
+
+.module_summary	{zoom:1}
+.ul.list_thumbnail {zoom:1}
+ul.list_comment {zoom:1}
+
+.list_comment .information {margin:35px 0 0 0}
+.list_comment .comment_wrap {margin:35px 0 0 0;}
+
+.menu_edit_wrap	{zoom:1;}
+.menu_item_detail .select_file {zoom:1}
+.menu_set_wrap	{zoom:1;}
+.layer_01 .edit_menu_order_wrap {zoom:1;}
+.layer_01 .edit_menu_order_wrap {zoom:1;}
+
+/* login page */
+.login_page .remember_me {margin:14px 0 0 100px;}
+label.remember_me_label {line-height:20px;}
+
+/* button */
+.btn_nor_01 {overflow:hidden;display:inline-block;height:12px;padding:2px 0 4px 0;border-width:1px;border-style:solid;border-color:#ccc #aaa #aaa #ccc;
+				background:#ddd url(../images/bg_button.gif) repeat-x;font-size:11px;text-decoration:None;text-align:center;vertical-align:middle;cursor:pointer}
+.btn_nor_01:link, .btn_nor_01:visited {color:#444 !important;}
+.btn_nor_01:hover, .btn_nor_01:active {background:url(../images/bg_button.gif) right repeat-x;color:#dc4e22 !important;text-decoration:none;}
+.btn_apply:link, .btn_apply:visited {position:relative;top:-1px;padding:3px 36px 6px 35px}
+.btn_ly {zoom:1}
+
+/* html editor */
+.html_editor {*zoom:1}
+.html_editor .addtion_list {*zoom:1}
+
+/* category */
+.category_wrap {zoom:1}
+
+/* for width 100% input */
+.table_input_vr input {position:relative;}
+.html_editor {position:relative;}
+.warn_border {position:relative;}
+.warn_border2 {position:relative;}
+
+/* for display neccesary icon right */
+th label {float:left;}
+
+/* input table */
+.table_input_vr .chk_group {overflow-x:hidden}
+.table_input_vr .require_wrap .chk_group {width:249px}
+
+
+/* input ul */
+.ul_input_vr li.cont_area {clear:both;width:100%;margin-top:40px;padding-top:0}
+
+/* extension tab */
+.tab_st1 {margin-bottom:20px}
+
+/* extension layer tab */
+.ly_exts .tab_cont {zoom:1}
+.ly_exts .tab_code {zoom:1}
+
+/* layer */
+.ly_set .srch_result						{height:180px}
+.ly_set .srch_result .table_hor_02	{width:auto}
+
+/*---------------------- page ----------------------*/
+.page_wrap {zoom:1}
+
+/* layer table */
+.table_ly_hor {width:auto;margin:0;border:0;border-top:1px solid #e0e0e0;border-right:1px solid #e0e0e0;border-left:1px solid #e0e0e0;background:#fff;font-size:11px;table-layout:fixed;word-wrap:break-word;}
+
+/* category */
+#categories_wrap {*zoom:1}
+
+/*---------------------- page ----------------------*/
+#page_wrap {*zoom:1}

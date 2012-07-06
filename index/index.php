@@ -1,0 +1,1 @@
+<?phpclass index extends Simplexi_Controller{	public function init()	{		$aData['test'] = $this->selectAll("user")->execute();		$this->display('index/index', $aData);	}}?>

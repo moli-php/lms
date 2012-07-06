@@ -1,0 +1,60 @@
+/*statistics*/
+#container .table_container{width:99%;margin-top:20px;padding:15px;border:1px solid #CCC;
+
+	-moz-box-shadow: 0 0 18px #CCC;
+	-webkit-box-shadow: 0 0 18px #CCC;
+	box-shadow: 0 0 18px #CCC;}
+#container table.statistics_search{width:100%;padding:5px;margin-bottom:10px;border:1px solid #CCC;background-color:#fff;}
+#container table.statistics_search td{height:30px;padding-left:10px;text-align:left}
+#container table.statistics_search td.class_period, #container table.product_search td.radio{text-align:left}
+#container table.statistics_search th{text-align:left;padding:5px 10px 5px 10px;}
+#container h4.data_header{margin:10px 0 10px;padding:10px;background:url(../images/table_headbg.png) repeat-x scroll left bottom;background-color:#fff;border:1px solid #999;text-align:left}
+/*statistics_calendar*/
+#container .popup_calendar{position:absolute;top:0;overflow:hidden;padding:10px;background:#fff;border:1px solid #dedede}
+#container .popup_calendar .btn_close{float:right}
+#container .popup_calendar .btn_close{float:right;width:16px;height:16px}
+#container .popup_calendar .btn_close a.popup_close{display:inline-block;width:16px;height:16px;background:url(../images/popup_close.png) no-repeat}
+#container .popup_calendar .btn_close a.popup_close:hover{background:url(../images/popup_closehover.png) no-repeat}
+#container .popup_calendar h4.calendar_title{width:120px;padding-bottom:10px;font-weight:bold !important;font-size:16px;color:#dc4e22 !important}
+#container .popup_calendar .month_selection{display:inline-block;clear:both;width:98%;margin:5px 0 5px}
+#container .popup_calendar .month_selection p.prev{float:left;width:20%}
+#container .popup_calendar .month_selection p.prev a{float:right}
+#container .popup_calendar .month_selection p.month{float:left;width:60%;text-align:center}
+#container .popup_calendar .month_selection p.next{float:right;width:20%}
+#container .popup_calendar .month_selection p.next a{float:left}
+#container .popup_calendar  table.dates{width:98%}
+#container .popup_calendar table.dates thead.week{background:url(../images/table_headbg.png) repeat-x scroll left bottom #fff;text-align:center}
+#container .popup_calendar table.dates thead.week th.sunday{color:#dc4e22}
+#container .popup_calendar table.dates td{height:13px;text-align:center;border:1px solid #dedede}
+#container .popup_calendar table.dates td.inactive:hover{background:#fff}
+#container .popup_calendar table.dates td:hover{background:#cdfae2}
+#container .popup_calendar table.dates td:active{background:#cdfae2}
+/*statistics_sales*/
+#container .table_container  table.subtotal_table{margin:30px 10px 20px 10px;}
+#container .table_container  table.subtotal_table th{height:30px}
+#container .table_container  table.subtotal_table td{height:30px;color:#DC4E22;font-weight:bold;}
+#container .table_container table.members_table{margin-top:5px;}
+#container  table.members_table td{height:25px;padding:5px 20px 5px 20px;color:#DC4E22;font-weight:bold;}	
+#container  table.members_table th{height:25px;padding:5px 20px 5px 20px;}	
+/*statistics_visitor*/
+#container .table_container .graph_wrap{position:relative;display:inline-block;overflow-x:auto;overflow-y:hidden;width:100%;margin-bottom:10px;padding-bottom:30px;border:1px solid #CCC;white-space:no-wrap;font-family:verdana;}
+#container .table_container ul.graph_container{display:block;height:320px;width:200% !important;}
+#container .table_container ul.graph_container li{display:inline-block;float:left;margin-left:5px;text-align:center;width:80px;}
+#container .table_container ul.graph_container li.first{margin-left:0}
+#container .table_container ul.graph_container li .bar_container{display:inline-block;position:relative;width:75px;height:300px;}
+#container .table_container ul.graph_container li .days{position:absolute;bottom:0;left:0;width:100%;background:url(../images/graph_bg.png) right repeat-y cornflowerBlue;text-align:center;border-bottom:1px solid #000}
+#container .table_container ul.graph_container li  p{font-size:9px;color:#000;font-weight:bold}
+#container .table_container ul.graph_container li  p.count{color:#DC4E22 !important}
+
+
+.btn_calendar_icon{background:url(/images/icons/calendar-day.png) left center no-repeat;padding-left:15px;width:30px;*display:inline-block;*padding-bottom:2px;padding-bottom:1px;margin-left:2px;cursor:pointer;}
+.fix1{border:solid 1px #CCC;}
+
+.statistics_wrap{width:100%;padding:5px;margin-bottom:10px;border:1px solid #CCC;background-color:#fff;text-align:center;padding:15px;font-size:13px;font-weight:bold;
+	-moz-box-shadow: 0 0 18px #CCC;
+	-webkit-box-shadow: 0 0 18px #CCC;
+	box-shadow: 0 0 18px #CCC;
+}
+
+.error_range{color:#CE1F1F}
+.display_none{display:none;}

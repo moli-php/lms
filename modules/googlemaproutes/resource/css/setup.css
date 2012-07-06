@@ -1,0 +1,29 @@
+div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+/*============SETUPDESIGN=============*/
+
+#pg_googlemapmark_setuppanel {width:665px;}
+#pg_googlemapmark_setuppanel th {margin:0px;font-weight:bold;padding:2px 10px;border-left:1px solid #aaa;}
+#pg_googlemapmark_setuppanel td {background:#f1f1f1;height:15px;border-width:1px 1px 0px 0px;border-color:#aaa;border-style:solid;margin:0px;padding:3px 5px;font-size:11px;}
+#pg_googlemapmark_setuppanel table {margin:0px;padding:0px;border-width:0px 0px 1px 1px;border-color:#aaa;border-style:solid;}
+#pg_googlemapmark_setuppanel tr:hover td {background:#fffccc;}
+#pg_googlemapmark_setuppanel .pg_googlemapmark_header {background:#4775b3;border:1px solid #5086d3;padding:7px;}
+#pg_googlemapmark_setuppanel .pg_googlemapmark_header span {font-size:13px;font-weight:bold;color:#fff;text-shadow:0 1px 0 #000;}
+#pg_googlemapmark_setuppanel .pg_googlemapmark_body {border-width:0px 1px 1px 1px;border-style:solid;border-color:#ccc;padding:5px;}
+#pg_googlemapmark_setuppanel input[type="button"], input[type="submit"]  {font-family:'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;font-size:10px;font-weight:bold;margin:2px;padding:2px 5px;border:1px solid #aaa;background:#ddd;cursor:pointer;color:#333;}
+#pg_googlemapmark_setuppanel input[type="button"]:hover, input[type="submit"]:hover {background:#eee;color:#111;}
+#pg_googlemapmark_setuppanel input[type="button"]:disabled, input[type="submit"]:disabled {background:#ccc;color:#aaa;cursor:default;}
+#pg_googlemapmark_setuppanel #pg_googlemapmark_option {margin-top: 10px;}
+#pg_googlemapmark_setuppanel #pg_googlemapmark_displayoption {margin-top:10px;}
+
+#pg_googlemapmark_setuppanel input[type="checkbox"], #pg_googlemapmark_setuppanel label {cursor:pointer;}
+
+/*============POPUP=============*/
+#pg_googlemapmark_popup_center { background:#F6F9ED; }
+.input_area { font-size:10px; }
+.ui-dialog-title { font-size:12px; }
+#google_map_search_field { width:270px; }
+#pg_googlemapmark_popup_center  input[type="button"], input[type="submit"]  {font-family:'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;font-size:10px;font-weight:bold;margin:2px;padding:2px 5px;border:1px solid #aaa;background:#ddd;cursor:pointer;color:#333;}
+#pg_googlemapmark_popup_center  input[type="button"]:hover, input[type="submit"]:hover {background:#eee;color:#111;}
+#pg_googlemapmark_popup_center input[type="button"]:disabled, input[type="submit"]:disabled {background:#ccc;color:#aaa;cursor:default;}
+.place_check_list input[type="radio"]:hover, .place_check_list label:hover { cursor:pointer; }

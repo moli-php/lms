@@ -1,0 +1,228 @@
+.chk_group {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #DFDFDE;float: left;max-height: 185px;min-width: 264px; overflow: auto;padding: 10px 17px 14px;position: relative}
+.utc {background: none repeat scroll 0 0 #DDDDDD;display: inline-block;font-style: italic;line-height: 16px;margin-left: 4px; padding: 0 5px;vertical-align: middle}
+.validate_wrap {height: 100px;margin: -20px 0 -80px 304px;position: relative}
+.secu_gauge {font-weight: bold}
+.secu_status {color: #BC3D4A;display: block;font-weight: bold;margin-left: 4px}
+
+.alert_txt {margin: 0 !important}
+.secu_bad {color: #BC3D4A}
+
+/* user */
+.table_user {margin:0 0 0 0;text-align:left}
+.table_user td, .additional_info td{display:inline-block;padding-bottom:10px;text-align:left}
+.table_user th, .additional_info th {vertical-align:top;font-weight:normal;text-align:left}
+.table_user label, .additional_info label {font-weight:normal;vertical-align: top}
+.table_user input, .additional_info input {border: 1px solid #CCCCCC;color: #777777;font-size: 11px;height: 17px}
+.table_user select, .additional_info select {height:20px !important;color: #535353 !important;border: 1px solid #CCCCCC;}
+.userspacer {margin:0 0 40px 0}
+.product_search input.fix, input.fix {width: 298px !important;border: 1px solid #CCCCCC;height: 17px}
+.product_search input.fix2, input.fix2 {width: 210px !important;border: 1px solid #CCCCCC;height: 17px}
+.product_search input.fix3, input.fix3  {width: 250px !important;border: 1px solid #CCCCCC;height: 17px}
+.product_search input.fix4 , input.fix4{width: 150px !important;border: 1px solid #CCCCCC;height: 17px}
+.product_search input.fix5, input.fix5 {width: 50px !important;border: 1px solid #CCCCCC;height: 17px}
+.product_search input.fix6,  input.fix6 {width: 350px !important;border: 1px solid #CCCCCC;height: 17px}
+.product_search input.fix7, input.fix7{width: 25px !important;border: 1px solid #CCCCCC;height: 17px}
+.product_search input.fix8, input.fix8{width: 75px !important;border: 1px solid #CCCCCC;height: 17px}
+
+.product_search .allselect {border: 1px solid #CCCCCC !important;height: 17px !important;min-width: 100px !important;}
+
+
+.neccesary {display:inline-block;width:5px;color:#FF0000}
+.not {visibility:hidden}
+#container .btn_save {float:left;margin-top:4px;padding:4px 20px 5px 20px;font:12px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline;font-weight:bold}
+#container .btn_save:hover {text-decoration:none;color:#Dc4e22 !important}
+.btn_return {display:inline-block;margin:10px 0 0 10px;color:#2489bf !important;text-decoration:underline !important}
+.action_btn {margin-top:20px}
+.require {color: #777777;float: right;font-size: 11px}
+.additional_info {margin:20px 0 0 0;border:0}
+.add_info_title {padding-right:15px;background:url(../images/sort_up.gif) no-repeat right center}
+.add_info_title2 {padding-right:15px;background:url(../images/sort_down.gif) no-repeat right center}
+.user_level {color:#535353;cursor:pointer}
+
+.table_user textarea {width:298px;height:100px;resize:none}
+.additional_info .user_info {width:298px;height:100px;resize:none;border: 1px solid #CCCCCC;color: #777777; font-size: 11px; outline: 0 none;overflow:hidden}
+.disabled {background:#e9e9e9}
+
+/* scheduler */
+
+.scheduler {border-collapse: collapse;border-spacing: 0;height: 100%;left: 0;top: 0;width: 100%;text-align:center;background:#DBE3FF}
+.scheduler tbody tr td .scheduler_container {display: block;margin: 0;padding: 75px 50px 75px 50px;position: relative}
+.scheduler thead tr th {padding:10px 0 10px 0}
+.scheduler_container_navs {display: inline-block;padding: 8px 0;width: 100%}
+.scheduler_container_navs ul {width:100%}
+.scheduler_container_navs ul li {display:inline}
+
+.scheduler_container_event_count {color: #DC4E22;cursor: pointer;display: block; font-size: 82.9%;position: absolute;right: 3%;top: 0}
+.scheduler_container_prev {}
+.scheduler_container_next {}
+
+.st_bg {border: 1px solid #bfbdbd;border-right:0}
+.scheduler .last {border: 1px solid #bfbdbd;border-right: 1px solid #bfbdbd}
+.date_calendar {padding:20px 0 20px 0}
+.date_calendar .date {margin:0 0 20px 0;padding:0;display:inline;font-size:20px;font-weight:bold}
+.scheduler_container_days {color: #FFF !important;font-size:35px;font-weight:bold}
+.scheduler .user {color:#aa0000 !important}
+.time {color:#0000ff;font-style:oblique;font-weight:normal !important}
+.description {font-size:10px}
+.color_1 span{color:#7bd148}
+.color_0 span {color:#d69973}
+.color_2 span {color:#bb5517}
+.color_3 span {color:#5e74f8}
+.color_4 span {color:#fa3b37}
+/* .finished {background:#dcdc0f;border:1px solid #9c9898;margin-bottom:1px;opacity:0.75;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"}
+.ongoing {background:#00ffff;border:1px solid #00bbbb;margin-bottom:1px;opacity:0.75;opacity:0.75;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"} */
+.finished {margin-bottom:5px;opacity:0.75;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"}
+.ongoing {margin-bottom:8px;opacity:0.75;opacity:0.75;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"}
+.finished span {font-weight:normal;cursor:pointer}
+.ongoing span {font-weight:normal;cursor:pointer}
+.scheduler .hidden {display:none !important}
+.scheduler_list {position:absolute;top:10px;left:10%;right:10%}
+
+.choosedate {height:18px;text-align:center;line-height:18px;cursor:pointer}
+.choose_date_title {margin-left:10px;font-weight:bold}
+.calendar_icon {padding:0 0 0 5px;vertical-align:middle}
+
+.btn_go {margin-left:5px;padding:0 5px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe; color:#767575 !important;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;font-weight:normal}
+.btn_go:hover {text-decoration:none;color:#Dc4e22 !important}
+
+.btn_management {padding:0 5px 0 6px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe; color:#767575 !important;border:1px solid #999;border-radius:5px;-moz-border-radius:5px}
+.btn_management:hover {text-decoration:none;color:#Dc4e22 !important}
+
+.status_1 {padding:1px 2px 1px 2px;background:#0066bb;color:#FFF}
+.status_2 {padding:1px 2px 1px 2px;background:#009999;color:#FFF}
+.status_3 {padding:1px 2px 1px 2px;background:#ff1100;color:#FFF}
+.status_4 {padding:1px 2px 1px 2px;background:#ee0088;color:#FFF}
+.status_5 {padding:1px 2px 1px 2px;background:#aa0000;color:#FFF}
+.status_6 {padding:1px 2px 1px 2px;background:#aaaa00;color:#FFF}
+.status_7 {padding:1px 2px 1px 2px;background:#555500;color:#FFF}
+
+.status_bg {background:#dbe3ff;padding:10px 0 10px 0;border:1px solid #a2b4ee}
+.schedule_bg {background:#d5ffce;padding:10px 0 10px 0;border:1px solid #9adf8f}
+.status_title {margin-left:10px;font-weight:bold}
+
+.user_logo {height:50px}
+.customfile-input {cursor:pointer}
+.strong {font-weight:bold !important}
+.sendto {width:500px !important}
+.popup_window {position:absolute;top:20px;background:#FFF;padding:10px;overflow:hidden;border: 1px solid #DEDEDE}
+/* user */
+.table_popup {margin:0}
+.table_popup td, .additional_info td{display:inline-block;padding-bottom:10px}
+.table_popup th, .additional_info th {vertical-align:top;font-weight:normal;text-align:left}
+.table_popup label, .additional_info label {font-weight:normal;vertical-align: top}
+.table_popup input, .additional_info input {border: 1px solid #CCCCCC;color: #777777;font-size: 11px;height: 17px}
+.table_popup select, .additional_info select {height:20px !important;color: #535353 !important;border: 1px solid #CCCCCC;}
+.table_popup input.fix, .additional_info input.fix {width: 298px}
+
+.table_popup .textarea {width:358px;height:100px;padding-top:18px;resize:none;border: 1px solid #CCCCCC;background: url(../images/dummy_textarea_bg.png) no-repeat 0 0;overflow:hidden}
+.popup_title {padding-bottom:10px;font-weight:bold !important;font-size:16px;color:#DC4E22 !important}
+
+/* SMS */
+.fr {float:right !important}
+.sms_bg {width:125px;height:130px;margin-bottom:-5px;margin-left:5px;padding:32px 19px 0 19px;background: url(../images/sms_bg.png) no-repeat 0 0;border:0;resize:none !important;color:#FFF;overflow:hidden}
+.sms td {padding-left:10px !important}
+.sms_char {margin-bottom:-10px !important;padding-left:20px;font-weight:bold}
+.char_left {color:#ff4b48}
+
+/* dropdown list */
+
+.dropdown_list {width:205px;height:60px;overflow:auto;display:block;border:1px solid #CCC;text-align:left}
+.dropdown_list a {width:100px;display:block;cursor:pointer;padding-left:10px}
+
+/* test evaluation */
+.result_table {border: 1px solid #CECECE;margin-bottom: 10px; text-align: left}
+.result_table thead p {color: #0000FF;display: inline-block;font-weight:bold;font-size:12px;margin: 2px 0 0 10px}
+.result_table thead td {height: 29px;padding: 0 10px;background-color: #A7A7A7;border-bottom: 1px solid #CECECE;border-right: 1px solid #CECECE;color: #000000;font-weight: bold}
+.result_table thead th {background-color: #DEF8D1;border-bottom: 1px solid #CECECE;height: 29px}
+.result_table .tbody td {height: 46px;padding: 5px 10px;background-color: #FFFFFF; border-bottom: 1px solid #CECECE; border-right: 1px solid #CECECE;font-size: 11px}
+.result_table .tfoot td label { color: #800093;font-weight: bold}
+.result_tabled .tfoot td .result_value {width: 137px;height: 15px;padding: 0 5px;border: 1px solid #999999}
+.result_value {height:18px;border: 1px solid #999999}
+.result_submit {cursor:pointer}
+.total_result {text-align: center;width: 100%}
+.total_result label {display: inline-block;width: auto;color: #FF0000;  font-weight: bold}
+.popup_content {}
+.result_table .tfoot td { height: 30px;padding:0 10px 0 10px;vertical-align: middle;text-align:right}
+.result_table td.last {border-right: 0 none}
+
+.allselect {min-width:100px !important}
+.slide_comment {border: 1px solid #CCCCCC; height: 40px;outline: medium none;padding:0;resize: none;text-align: left;width: 500px;}
+/* teacher statistic */
+
+.period_to {margin:0 10px 0 10px;display:inline-block}
+.memo {width:300px;height:40px;padding:10px 0 0 0;outline:none;resize:none;text-align:center;border: 1px solid #CCCCCC;}
+.memo_title {display:inline-block;margin-top:20px;vertical-align:top;font-weight:bold;}
+.remark {display:block;margin-bottom:10px;font-size:14px}
+.personnel_name {font-size:16px;font-weight:normal;border:1px solid #DEDEDE;border-bottom:0}
+.period_span {font-size:12px}
+.puserid {font-style:oblique;font-size:14px;color:#b82929}
+
+/* teacher total */
+.month_today {margin:0 10px 0 10px;font-size:14px;font-weight:bold;}
+.statistic_total_info {margin:10px 0 0 0;background:#FFF;padding:10px;border: 1px solid #CCCCCC;}
+.statistic_total_info p {margin:0 0 5px 0;font-weight:normal}
+.statistic_total_info p span {font-size:13px;font-weight:bold;}
+.total_postponed {color:#0066BB}
+.total_cancelled {color:#FF1100}
+.total_longterm_postponed {color:#555500}
+
+/* point */
+.verify_name {margin:5px 0 5px 0;font-size:14px;}
+.verify_name span {font-size:12px;color: #B82929;font-style: oblique;}
+.verify_question {padding-left:20px;font-size:16px;font-weight:bold;color:#FF1100;background: url(../images/icons/online.png) no-repeat 0 -1px}
+.radio_title {margin-right:10px}
+.point input.fix {width: 298px;border: 1px solid #CCCCCC;height: 17px}
+.point input.fix2 {width: 210px;border: 1px solid #CCCCCC;height: 17px}
+.point input.fix3 {width: 250px;border: 1px solid #CCCCCC;height: 17px}
+.point input.fix4 {width: 150px !important;border: 1px solid #CCCCCC;height: 17px}
+.point input.fix5 {width: 50px;border: 1px solid #CCCCCC;height: 17px}
+.point input.fix6 {width: 350px;border: 1px solid #CCCCCC;height: 17px}
+.point input.fix7{width: 25px;border: 1px solid #CCCCCC;height: 17px}
+.point input.fix8{width: 75px;border: 1px solid #CCCCCC;height: 17px}
+
+/* movie */
+.moviefrm {margin-bottom:-50px !important}
+.moviefrm select {min-width:200px !important}
+.image_preview {margin:20px 0 0 0}
+.image_preview_close {color:#0f0e0e !important;font-size:14px;vertical-align:top}
+
+/* test assign */
+.test_assign {display:block;margin:10px 0 10px 0;clear:both;}
+.test_assign .title {display:block;width:100%;margin:10px 0 10px 0;text-align:center;font-size: 14px;}
+
+/* ulearning */
+
+.ulearning {width:100%;background:#e3f8d8;}
+.ulearning th {padding:5px;border:1px solid #CCC;border-bottom:0;background-color: #e4eceb;font-weight:normal;vertical-align:middle !important;font-size:11px}
+.ulearning th.last ,.ulearning td.last{border-bottom:1px solid #CCC;}
+.ulearning td {padding:5px;border:1px solid #CCC;border-left:0;border-bottom:0;}
+.ulearning td  img {float:left;margin-bottom:5px;}
+.ulearning td ul {overflow:hidden}
+.ulearning td ul li{float:left;margin-left:10px;padding-left:10px;background: url(../images/bullet_02.gif) no-repeat 0 5px;word-spacing:-1px}
+.ulearning .prompt {color:#308f83;font-size:9px;}
+.ulearning .prompt span {text-decoration:underline}
+.ulearning label {display:inline-block;margin:2px 5px 0 0;}
+.study_summary_subtitle {display:block;font-size:9px;font-weight:normal}
+.ulearning textarea {width:600px;height:100px;outline:0;resize:none}
+.ulearning .browse {height:19px;padding-bottom:2px;cursor:pointer}
+.voice_holder {width:500px;display:inline-block}
+.voice_option {display:inline-block;margin-left:10px;}
+.highlight {color:#a8a22b}
+.highlight2 {color:#bb3886}
+.ulearning td .holder {margin-bottom:2px;clear: both; display: inline-block;}
+.required {float:right;margin-right:10px;}
+.required .neccesary {margin-top:2px !important;vertical-align:middle !important;}
+.radio {vertical-align:bottom}
+.required {float:right;margin-right:10px;}
+.required .neccesary {margin-top:2px !important;vertical-align:middle !important;}
+.listening {padding:0 0 5px 15px;background:url(../images/icons/media-player-medium.png) no-repeat 0 0}
+.vocabulary {padding:0 0 5px 20px;background:url(../images/icons/book-open.png) no-repeat 0 0}
+.grammar {padding:0 0 5px 20px;background:url(../images/icons/blue-document-task.png) no-repeat 0 0}
+.writing {padding:0 0 5px 20px;background:url(../images/icons/book--pencil.png) no-repeat 0 0}
+.reading {padding:0 0 5px 20px;background:url(../images/icons/book-open-list.png) no-repeat 0 0}
+.speaking {padding:0 0 5px 20px;background:url(../images/icons/speaker-volume.png) no-repeat 0 0}
+
+/* popup window modify */
+
+#container .container_wrap2 {position:relative;width:100%;overflow:hidden;display:inline-block}
+.popup_holder {overflow:auto;width:100%;height:600px;padding:0 5px 0 0;}

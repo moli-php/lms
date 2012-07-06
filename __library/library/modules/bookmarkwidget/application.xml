@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+    <langs support="en" default="en"></langs>
+    <api use="on">
+        <ifs>
+            <if class="apiBuilderLib" permission="off" desc="Api for the builder library"></if>
+            <if class="apiAddBookmark" permission="off" desc="Api for Adding Bookmarks"></if>
+            <if class="apiCheckUser" permission="off" desc="Api for Checking User"></if>
+            <if class="apiDelBookmark" permission="off" desc="Api for Deleting Bookmarks"></if>
+            <if class="apiGetBookmark" permission="off" desc="Api for Loading Bookmarks"></if>
+        </ifs>
+    </api>
+    <admin use="on" index="adminPageSettings">
+        <ifs>
+            <if class="adminPageSettings" permission="off" desc="Configure Settings"></if>
+        </ifs>
+        <menus>
+        </menus>
+    </admin>
+    <front use="on">
+        <ifs>
+            <if class="frontPageBookmarkwidget" permission="off" code-assist="on" desc="Bookmark Widget"></if>
+        </ifs>
+    </front>
+</application>

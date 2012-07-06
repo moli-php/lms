@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codehint>
+    <var value="wrap_container" name="Needed for Bookmark CSS"></var>
+    <var value="wrap" name="Needed for Bookmark CSS"></var>
+    <var value="slider" name="Needed for Bookmark CSS"></var>
+    <var value="main" name="Main Container"></var>
+    <var value="form_class" name="Form Style"></var>
+    <var value="form_class2" name="Form Style"></var>
+    <var value="btn_class" name="Form Button Style"></var>>
+    <var value="bookmark_btn_image" name="Bookmark Button Image"></var>
+    <var value="url_search" name="Search Field"></var>
+    <var value="container" name="URL List Container"></var>
+    <var value="url_list" name="URL List"></var>
+    <var value="url_name" name="Bookmark Name"></var>
+    <var value="url" name="Bookmark URL"></var>
+    <var value="add_btn" name="Add Button"></var>
+    <var value="nav" name="Bookmark Navigation"></var>
+</codehint>

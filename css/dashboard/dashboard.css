@@ -1,0 +1,65 @@
+/*Dashboard*/
+.dashboard{width:49%;margin:-15px 0 10px;min-height:300px;float:left;}
+.dashboard .dashboard_item{margin:10px 5px 0;position:relative;border:1px solid #b6b6b6;}
+.wrapper_dashboard{margin-left:30px;text-align:center;width:98%;display:inline-block;margin-bottom:20px;}
+.dashboard .dashboard_item{background-color:#f2f2f2;text-align:left;border:1px solid #b6b6b6;position:relative;margin:10px 5px 0;}
+.dashboard .dashboard_item .title {width:100%;height:25px;background-color:#cdcdcd;border-bottom:2px solid #b6b6b6;cursor:move}
+.dashboard_item .title span {float:left;width:97%;margin:5px 0 0 5px;font-size:14px;cursor:move}
+.dashboard_item .title .toggle{text-decoration:none;display:inline-block;margin-top:5px;height:20px;}
+.dashboard_item .content {width:97%;padding:5px 10px 15px;}
+.dashboard .placeholder{background: #f0f0f0; border:1px dashed #ddd;text-align:left;position:relative;margin:10px 5px 0;}
+
+
+/*Dashboard Management*/
+.dash {float:left;width:98%;max-width:98%;}
+.dashboard_order .dash_order_item strong{width:98%;max-width:98%;cursor:move;}
+.dashboard_list {width:80%;margin-left:15px;display:inline-block}
+.dashboard_list li {float:left;margin-right:10px}
+.dashboard_list input {float:left;margin-right:5px}
+.check_all_box {padding-left:5px;font:11px;font-weight:normal;}
+.dashboard_order {width:500px;margin:10px 0 5px 15px;padding:2px 5px;overflow:auto;border:1px solid #cdcdcd;float:left;}
+.dashboard_order .dash_order_item{height:30px;width:100%;margin:5px 0;background:#589d99;border-radius:5px 5px 5px;display:inline-block}
+.dashboard_order .order_selected{height:30px;width:100%;margin:5px 0;background:#242424;border-radius:5px 5px 5px;display:inline-block}
+.dashboard_order .dash_order_item strong {margin:7px 0 0 10px;font-size:14px;color:#fff;display:inline-block}
+.sort_buttons{float:left;margin:10px 0 0 15px;padding:2px 5px;}
+.btn_sort{width:20px;height:20px;max-width:20px;max-height:20px;}
+.error_null{color:red; font-size:13px;height:50px;max-height:50px;height:30px;width:100%;margin:5px 0;display:inline-block}
+.dashboard_order .placeholder{background: #f0f0f0; border:1px dashed #ddd;}
+
+/* dashboard common style templates */
+.wrapper_dashboard .top_content {width:100%;margin-bottom:5px;display:inline-block}
+.wrapper_dashboard .top_content .total_count {float:left;font-weight:normal}
+.wrapper_dashboard .top_content .total_count span {color:#ff9c00}
+.wrapper_dashboard .top_content .view_link {float:right;font-weight:normal}
+.wrapper_dashboard .top_content .view_link a{text-decoration:underline}
+.wrapper_dashboard .count_summary {width:100%;margin:10px 0;display:inline-block}
+.wrapper_dashboard .count_summary li {float:left;margin-right:10px}
+.wrapper_dashboard .count_summary span {margin-left:3px;color:#ff9c00;display:inline-block}
+.wrapper_dashboard .title_recent {width:100%;font-size:11px;font-weight:bold;margin:5px 0 10px}
+.wrapper_dashboard .title_recent strong {margin-left:5px}
+.wrapper_dashboard  table {width:100%}
+.wrapper_dashboard  table td {padding:5px 2px;border-bottom:1px solid #9a9a9a}
+.wrapper_dashboard  table td a{color:#11a2c1}
+.wrapper_dashboard  table td a:hover{color:#11a2c1;text-decoration:underline;}
+
+.wrapper_dashboard .content_list {width:100%;display:inline-block}
+.wrapper_dashboard .content_list li {width:100%;margin-bottom:5px}
+.wrapper_dashboard .content_list li a, .wrapper_dashboard .content_list li {color:#11a2c1}
+.wrapper_dashboard .content_list li .detail_right {float:right;color:#868686}
+.wrapper_dashboard .no_entry {margin:10px 0}
+
+/*thumbnail*/
+.wrapper_dashboard  .image_list_h {width:100%;display:inline-block;margin:5px 0}
+.wrapper_dashboard  .image_list_h li{float:left;margin-right:10px}
+.wrapper_dashboard  .image_list_v {width:100%;display:inline-block;margin:5px 0}
+.wrapper_dashboard  .image_list_v li{margin-bottom:10px}
+.wrapper_dashboard .thumbnail_25px {width:25px;height:25px}
+.wrapper_dashboard .thumbnail_35px {width:35px;height:35px}
+.wrapper_dashboard .thumbnail_50px {width:50px;height:50px}
+.wrapper_dashboard .thumbnail_180px {width:180px;height:180px}
+.wrapper_dashboard .thumbnail_220px {width:220px;height:220px}
+.wrapper_dashboard .thumbnail_260px {width:260px}
+
+.dashboard_item {min-height:140px;}
+.dashboard_item .content {position:relative}
+.dashboard_item .content .loader {margin:0 45%}

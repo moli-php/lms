@@ -1,0 +1,29 @@
+.nameit-choices{margin-top:1px;display:block;padding:0}
+.btn_apply:active{position:relative;border:inset 1px gray !important;}
+.table_user tr td{padding:4px;margin:0;width:100%;padding-top:10px;padding-bottom:10px;}
+
+.btn{border:outset 1px #CCC;padding:2px 6px 2px 6px ;background:whitesmoke;text-decoration:none;color:#333;border-radius: 5px;font-family:arial;font-size:11px;cursor:pointer;}
+.btn1{border:outset 1px #CCC;padding:4px 8px 4px 8px ;background:whitesmoke;text-decoration:none;color:#333;border-radius: 5px;font-family:arial;font-size:11px;cursor:pointer;}
+.btn:hover,.btn1:hover{text-decoration:none;color:#DC4E22 !important}
+.btn:active,.btn1:active{border:inset 1px #ccc;}
+.display-none{display:none;}
+.footer-option{padding:12px;}
+.choices-link{position:relative;color:#DC4E22 !important}
+.choices-list{padding:10px;border:solid 1px #CCC;margin-top:5px;}
+.choice-label{font-size:11px;font-weight:bold !important;}
+
+.form-label{;padding:5px;text-align:left;}
+.form-label .f-label{font-size:13px;color:#333;margin-bottom:7px;margin-top:2px;font-family:tahoma;font-weight:bold;}
+.form-label .f-field{font-size:12px;color:#333;margin-bottom:11px;}
+
+.span1{border:solid 1px #CCC;width:220px;padding:3px;}
+.span2{border:solid 1px #CCC;width:250px;padding:3px;}
+.span3{border:solid 1px #CCC;width:98%;padding:3px;}
+
+.image-container{border:solid 1px #CCC;padding:10px;}
+.image-container img{margin:0 auto;}
+.prev-question{padding:10px;}
+
+.prev-choices {text-align:center;}
+.prev-choices ul{padding:10px;margin:0 auto;display:block;width:500px;border:solid 1px #CCC;text-align:left;}
+.prev-choices ul li{padding:5px;}

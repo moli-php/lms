@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*	--------------------------------------------------
+	Global Reset & Standards
+	-------------------------------------------------- */
+* {margin:0;padding:0;}
+html, body {margin:0; padding:0;} 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, img, small, strike, strong, em, sub, sup, tt, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td, section {margin: 0;padding: 0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;text-align:left;text-indent:0;}
+table {border-collapse: collapse;border-spacing:0;}
+ol, ul, li {list-style: none;}
+img,input {border:0;}
+
+body,html{width:100%;text-align:center;background:#053535;font-family: 'Lucida Sans Unicode','Lucida Grande',tahoma,verdana,arial,sans-serif;}
+
+#wrap {width:960px;height:551px;margin:0 auto;background: url(../images/wrap_bg.png) no-repeat top left;}
+#login_wrap {width:300px;margin:0 auto;padding-top:105px;overflow:hidden;}
+
+#login_wrap h1 {margin:0 auto;text-align:center;}
+.logo {width:150px;height:29px;margin-bottom:59px;}
+
+.login_form {width:300px;height:222px;background: url(../images/login_form_bg.png) no-repeat top left;}
+.login_form h3 {padding-left:19px;margin-left:8px;height:40px;line-height:40px;color:#fff;font-weight:bold !important;font-size:12px;background: url(../images/lock.gif) no-repeat left center;}
+.login_form form {padding:23px 20px 0 20px}
+.login_form form .textbox {width:258px;height:18px;line-height:18px;margin:4px 0 10px 0;border:1px solid #CCCCCC;color:#535353;font-size:12px;font-family:'Tahoma';}
+.login_form form  label {color: #7d7a7a;font-size:12px;font-weight:bold}
+.rememberpassword {float:left;margin-top:23px;}
+.rememberpassword label {margin-left:5px;color:#7d7a7a !important;vertical-align:top;}
+
+.submit_btn {float:right;height:26px;margin-top:17px;padding-left:8px;background: url(../images/login_btn.gif) no-repeat left top;}
+.submit_btn input {float:right;height:24px;padding:2px 7px 4px 0;background: url(../images/login_btn.gif) no-repeat right top;color:#FFF;font-size:12px;font-weight:bold;cursor:pointer;}
+
+/* ERROR */
+
+label.error {color:#ce1f1f !important;margin-left:10px;}
+div.error { display: none; clear: both; }
+input.checkbox { border: none }
+input.error, textarea.error, select.error { border: 1px solid #ce1f1f !important; }

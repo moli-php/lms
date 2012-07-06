@@ -1,0 +1,10 @@
+.banner .preview img {width:150px}
+.table_user1 th {vertical-align:top}
+.table_user1  td, .table_user1  th {padding:0 0 10px}
+.table_user1 {margin:0 0 0 0;text-align:left}
+.table_user1 label, .additional_info label {font-weight:normal;vertical-align: top}
+.table_user1 input, .additional_info input {border: 1px solid #CCCCCC;color: #777777;font-size: 11px;height: 17px}
+.table_user1 select, .additional_info select {height:20px !important;color: #535353 !important;border: 1px solid #CCCCCC;}
+.headerInit a{width:9px;height:5px;padding-right:15px;background:url(../../images/sort_down.gif) no-repeat right 5px}
+
+

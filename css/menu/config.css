@@ -1,0 +1,27 @@
+.info_area {border: 1px solid #CCCCCC;color: #777777;font-size: 11px;height:90px;width:298px;resize:none;outline:0}
+.time_zone {border: 1px solid #CCCCCC;color: #777777;font-size: 11px}
+
+
+.customfile-input { position: absolute;width: 350px;height: 100px !important;top:0;left:0;cursor: pointer;opacity: 0; -moz-opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);background: trdansparent;  z-index: 999;  }
+.customfile-input,x:-moz-any-link, x:default  {top:0;left:-120px}
+.customfile { width: 298px;cursor: pointer; overflow: hidden; padding: 2px;position: relative;display:inline-block}
+.customfile-disabled { opacity: .5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); cursor: default;  }
+.customfile-feedback { float:left;width:200px;display: block; margin: 1px 1px 1px 5px; font-size: 1.em; color: #777; font-style: italic; padding: .3em .6em; }
+.customfile-feedback-populated { color: #777; font-style: normal; font-weight: bold; padding-left: 20px;}
+.customfile-button { border: 1px solid #999;color: #777; font-weight: normal; float: left;background:#e3e3e3; width: 50px; padding: .3em .6em;  text-align: center; text-decoration: none;  font-size: 1.2em; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;  }
+.customfile-hover .customfile-button, .customfile-focus .customfile-button  { color:#111;  padding: .3em .6em;  }
+.customfile-focus .customfile-button { outline: 1px dotted #ccc;  }
+
+/*file type icons*/
+.customfile-ext-jpg, .customfile-ext-gif, .customfile-ext-png, .customfile-ext-jpeg, .customfile-ext-bmp { background-image: url(../images/icon-image.gif);}
+.customfile-ext-mp3, .customfile-ext-mp4, .customfile-ext-mov, .customfile-ext-swf, .customfile-ext-wav, .customfile-ext-m4v { background-image: url(../images/icon-media.gif);}
+.customfile-ext-zip, .customfile-ext-tar, .customfile-ext-sit { background-image: url(../images/icon-zip.gif);}
+
+.btn_find {height:18px !important;padding:0 5px;cursor:pointer}
+.config_logo {height:110px}
+.logo_preview {position:absolute;top:0;right:0}
+.logo_preview  img {width:250px;display:inline-block}
+
+.dashboard_order {width:500px;height:300px;margin:10px 0 0 15px;padding:2px 5px;overflow:auto;border:1px solid #cdcdcd}
+.dashboard_order  .dash_order_item {height:30px;width:100%;margin:5px 0;background:#589d99;border-radius:5px 5px 5px;display:inline-block}
+.dashboard_order  .dash_order_item strong {margin:7px 0 0 10px;font-size:14px;color:#fff;display:inline-block}

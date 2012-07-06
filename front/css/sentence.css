@@ -1,0 +1,200 @@
+@charset "utf-8";
+html { padding:0; margin:0; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+.clr { clear: both; font-size; 0; overflow: hidden; height: 0; }
+/* main */
+.english_game_main {  position: absolute; margin:0; padding:0; width:790px; height:630px; background:url(../images/english_games/sentence/Background.png) top center repeat;}
+
+#englishgameimage {
+  position: absolute;
+  left: 27px;
+  top: 16px;
+  height: 178px;
+  z-index: 0;
+  width: 290px;
+}
+
+#welcomelabelbg {
+  position: absolute;
+  left: 490px;
+  top: 16px;
+  height: 33px;
+  z-index: 1;
+  width: 292px;
+}
+
+#levelfieldbg {
+  position: absolute;
+  left: 335px;
+  top: 334px;
+  height: 33px;
+  z-index: 2;
+  width: 198px;
+}
+
+#questioncountbg {
+  position: absolute;
+  left: 467px;
+  top: 385px;
+  height: 33px;
+  z-index: 3;
+  width: 89px;
+}
+
+#startlabelbg {
+  position: absolute;
+  left: 218px;
+  top: 452px;
+  height: 70px;
+  z-index: 4;
+  width: 349px;
+}
+
+#startlabel {
+  position: absolute;
+  left: 348px;
+  top: 463px;
+  height: 23px;
+  z-index: 5;
+  width: 88px;
+  font: 36px Calibri;
+  color: #ffffff;
+}
+
+#levelfieldchoice {
+  position: absolute;
+  left: 501px;
+  top: 344px;
+  height: 15px;
+  z-index: 6;
+  width: 19px;
+}
+
+#questioncountchoice {
+  position: absolute;
+  left: 528px;
+  top: 395px;
+  height: 15px;
+  z-index: 7;
+  width: 19px;
+}
+
+#welcomelabel {
+  position: absolute;
+  left: 567px;
+  top: 17px;
+  height: 14px;
+  z-index: 8;
+  width: 149px;
+  font: 20px MV Boli;
+  color : #0a0a77;
+}
+
+#englishgamelabel {
+  position: absolute;
+  left: 138px;
+  top: 180px;
+  height: 34px;
+  z-index: 9;
+  width: 217px;
+  font: 33px MV Boli;
+  color : #f7531a;
+}
+
+#gametitle {
+  position: absolute;
+  left: 262px;
+  top: 235px;
+  height: 30px;
+  z-index: 10;
+  width: 257px;
+  font: 40px Gabriola;
+  text-decoration:underline;
+  color: #084993;
+  
+}
+
+#lmscopyright {
+  position: absolute;
+  left: 23px;
+  top: 565px;
+  height: 20px;
+  z-index: 11;
+  width: 330px;
+  font: 17px MV Boli;
+  color : #0a19ac;
+}
+
+#levellabel {
+  position: absolute;
+  left: 249px;
+  top: 326px;
+  height: 24px;
+  z-index: 12;
+  width: 68px;
+  font: 33px Gabriola;
+  color: #761202
+}
+
+#questioncountlabel {
+  position: absolute;
+  left: 223px;
+  top: 373px;
+  height: 29px;
+  z-index: 13;
+  width: 231px;
+  font: 33px Gabriola;
+  color: #761202
+}
+
+#levelfield {
+  position: absolute;
+  left: 391px;
+  top: 344px;
+  height: 14px;
+  z-index: 14;
+  width: 70px;
+}
+
+#timelabel {
+  position: absolute;
+  left: 585px;
+  top: 85px;
+  height: 20px;
+  z-index: 15;
+  width: 85px;
+  font: 26px MV Boli;
+  color: #ff0000;
+  font-weight:bold;
+}
+
+#timefield {
+  position: absolute;
+  left: 520px;
+  top: 115px;
+  height: 70px;
+  z-index: 16;
+  width: 159px;
+  font: 60px MV Boli;
+  color: #ff0000;
+  font-weight:bold;
+}
+
+#questioncount {
+  position: absolute;
+  left: 485px;
+  top: 395px;
+  height: 14px;
+  z-index: 17;
+  width: 32px;
+}
+.loader {
+  position: absolute;
+  left: 360px;
+  top: 250px;
+  height: 30px;
+  z-index: 10;
+  width: 257px;
+}
+

@@ -1,0 +1,239 @@
+@charset "utf-8";
+@charset "euc-kr";
+	
+* {padding:0; margin:0}
+
+/* reset */
+body, th, td, textarea, h1, h2, h3, h4, h5, h6 {font-family:tahoma, Verdana, sans-serif;font-size:11px}
+body, th, td, textarea {line-height:14px}
+body {margin:0;padding:0}
+img, fieldset {border:0} 
+li {list-style:none}
+select, input {font-family:verdana; color:#000; font-size:1.00em}
+address,em {font-style:normal; }
+button  {border:none; background:none; cursor:pointer}
+hr, legend {display:none}
+p, h1, h2, h3, h4, h5, h6, form, input, ul, li, dl, dt, dd {margin:0; padding:0; }
+a img {vertical-align:top}
+a:link {text-decoration:none}
+a:visited {text-decoration:none}
+a:hover	{text-decoration:none}
+
+.hidden {display:none}
+
+/* wrapper */
+#wrap {width:992px;height:688px;margin: 0 auto;display:inline-block}
+/* content */ /* */
+#content {width:992px;height:688px;margin-top:5px;text-align:left;background-color:#151515;border:1px solid #606060;display:inline-block} /*  */
+#content .top_content {width:100%;display:inline-block}
+#content .top_content li {float:left;margin:1px 0 1px 1px}
+#content .top_content .con_1{width:285px;height:46px;background:url(../../images/ulearning/content_head.gif) left top no-repeat;display:inline-block}
+#content .top_content .con_1 h2 {float:right;margin-top:15px;margin-right:15px;font:bold 14px 'RixGoEB',gulim;color:#fff}
+#content .top_content .con_2 {width:164px;height:46px;background:url(../../images/ulearning/content_date.gif) left top no-repeat;display:inline-block}
+#content .top_content .con_2 .date {float:right;margin-top:13px;margin-right:8px;font:bold 16px Tahoma, Geneva, sans-serif;color:#fff}
+#content .top_content .con_3 {width:208px;height:46px;background:url(../../images/ulearning/content_time.gif) left top no-repeat;display:inline-block}
+#content .top_content .con_3 .time {float:right;width:122px;height:17px;margin-top:14px;margin-right:8px;font:bold 12px Tahoma, Geneva, sans-serif;text-align:center;color:#fff;background-color:#568ac6;border-width:1px;border-style:solid;border-color:#2e4b73 #6a94ce #7b9cc5 #395f8e;display:inline-block}
+#content .top_content .con_3 .time strong {margin-top:2px;display:inline-block}
+#content .top_content .con_4 {width:311px;height:46px;background:url(../../images/ulearning/content_course.gif) left top no-repeat;display:inline-block}
+#content .top_content .con_4 .course{width:311px;height:46px;font:bold 15px Tahoma, Geneva, sans-serif;color:#fff;display:inline-block}
+#content .top_content .con_4 a:hover {color:#e9e9e9;text-decoration:none}
+#content .top_content .con_4 .course strong {float:left;margin-top:16px;margin-left:75px;}
+
+#content .mid_content {position:relative;width:100%;height:592px;margin-left:1px;display:inline-block}
+
+/* slide name */
+#content .mid_content .slide_name {position:absolute;top:15px;left:25px;height:35px;display:inline-block;z-index:2}
+#content .slide_name .title {height:30px;padding-top:5px;padding-left:45px;font:bold 18px Tahoma, Geneva, sans-serif;color:#fff;background:url(../../images/ulearning/logo_slide.gif) left no-repeat}
+
+/* color scheme control */
+#content .mid_content .control {position:absolute;top:10px;right:30px;text-align:center;display:inline-block}
+#content .mid_content .control li {float:left;width:30px;height:30px;margin-left:5px;font:bold 15px Tahoma, Geneva, sans-serif;color:#fff;text-shadow:1px 1px 2px #333;background-color:#5e5e5e;border:2px solid #ababab;cursor:pointer}
+#content .mid_content .control strong {margin-top:5px;display:inline-block}
+#content .mid_content .control li.control_1 {background:url(../../images/ulearning/bg_control_1.gif) left top repeat-x;border:2px solid #ffe88e}
+#content .mid_content .control li.control_2 {background:url(../../images/ulearning/bg_control_2.gif) left top repeat-x;border:2px solid #fdd484}
+#content .mid_content .control li.control_3 {background:url(../../images/ulearning/bg_control_3.gif) left top repeat-x;border:2px solid #ea6e79}
+#content .mid_content .control li.control_4 {background:url(../../images/ulearning/bg_control_4.gif) left top repeat-x;border:2px solid #dbf28a}
+#content .mid_content .control li.control_5 {background:url(../../images/ulearning/bg_control_5.gif) left top repeat-x;border:2px solid #70a5f1}
+#content .mid_content .control li.control_6 {background:url(../../images/ulearning/bg_control_6.gif) left top repeat-x;border:2px solid #d6b9e9}
+#content .mid_content .control li:hover {background:#7a7a7a !important;border:2px solid #d3d3d3}
+
+/* green */
+#content .mid_content .con_1 {position:relative;width:971px;height:592px;background-color:#92ae25}
+#content .mid_content .con_1 .container {position:absolute;width:880px;height:520px;margin-top:65px;margin-left:60px;padding-right:50px;overflow:auto;display:inline-block}
+#content .mid_content .con_1 p {margin-bottom:10px;font:bold 16px Tahoma, Geneva, sans-serif;color:#343633}
+/* yellow */
+#content .mid_content .con_2 {position:relative;width:971px;height:592px;background-color:#e3b917}
+#content .mid_content .con_2 .container {position:absolute;width:880px;height:520px;margin-top:65px;margin-left:60px;padding-right:50px;overflow:auto;display:inline-block}
+#content .mid_content .con_2 p {margin-bottom:10px;font:bold 16px Tahoma, Geneva, sans-serif;color:#343633}
+/* blue */
+#content .mid_content .con_3 {position:relative;width:971px;height:592px;background-color:#2c66b8}
+#content .mid_content .con_3 .container {position:absolute;width:880px;height:520px;margin-top:65px;margin-left:60px;padding-right:50px;overflow:auto;display:inline-block}
+#content .mid_content .con_3 p {margin-bottom:10px;font:bold 16px Tahoma, Geneva, sans-serif;color:#fff}
+/* lilac */
+#content .mid_content .con_4 {position:relative;width:971px;height:592px;background-color:#5d5b82}
+#content .mid_content .con_4 .container {position:absolute;width:880px;height:520px;margin-top:65px;margin-left:60px;padding-right:50px;overflow:auto;display:inline-block}
+#content .mid_content .con_4 p {margin-bottom:10px;font:bold 16px Tahoma, Geneva, sans-serif;color:#b6b4d9}
+/* indigo */
+#content .mid_content .con_5 {position:relative;width:971px;height:592px;background-color:#3d3d97}
+#content .mid_content .con_5 .container {position:absolute;width:880px;height:520px;margin-top:65px;margin-left:60px;padding-right:50px;overflow:auto;display:inline-block}
+#content .mid_content .con_5 p {margin-bottom:10px;font:bold 16px Tahoma, Geneva, sans-serif;color:#e2e3ff}
+/* maroon */
+#content .mid_content .con_6 {position:relative;width:971px;height:592px;background-color:#85300b}
+#content .mid_content .con_6 .container {position:absolute;width:880px;height:520px;margin-top:65px;margin-left:60px;padding-right:50px;overflow:auto;display:inline-block}
+#content .mid_content .con_6 p {margin-bottom:10px;font:bold 16px Tahoma, Geneva, sans-serif;color:#ffccb9}
+/* grey */
+#content .mid_content .con_7 {position:relative;width:971px;height:592px;background-color:#575757}
+#content .mid_content .con_7 .container {position:absolute;width:880px;height:520px;margin-top:65px;margin-left:60px;padding-right:50px;overflow:auto;display:inline-block}
+#content .mid_content .con_7 p {margin-bottom:10px;font:bold 16px Tahoma, Geneva, sans-serif;color:#fff}
+
+#content .mid_content .video_container {float:left;width:659px;height:100%;background-color:#575757;display:inline-block}
+#content .mid_content .video_container .video_content {margin-left:10px;background:#999;outline:0;border:0;}
+#content .mid_content .video_gallery {float:left;width:310px;height:22px;margin-left:1px;color:#b7b7b7;background-color:#575757;display:inline-block}
+#content .mid_content .video_gallery strong {float:left;margin-top:6px;margin-left:17px;font:bold 12px gulim;color:#b7b7b7;}
+#content .mid_content .video_thumbs {float:left;width:330px;height:603px;margin-left:1px;overflow:auto;}
+#content .mid_content .video_thumbs li {width:311px;margin-bottom:1px;background-color:#575757;display:inline-block}
+#content .mid_content .video_thumbs li img {float:left;margin-top:8px;margin-left:10px}
+#content .mid_content .video_info {float:left;width:159px;margin-top:8px;margin-left:2px;display:inline-block}
+#content .mid_content .video_title, #content .mid_content .video_title a {width:159px;font:12px gulim;color:#e47411}
+#content .mid_content .video_description{width:159px;margin-top:2px;padding-top:2px;font:11px gulim;color:#c2c2c2;border-top:1px solid #898989;display:inline-block}
+#content .mid_content .video_views{float:right;margin-top:2px;height:40px;font:11px gulim;color:#898989;}
+
+
+/* layout style format */
+#content .mid_content .row_container {width:100%;margin-bottom:2px;display:inline-block}
+/* box styles */
+#content .container .style {width:848px;overflow:hidden;display:inline-block}
+/* medium box expandable height */
+#content .container .m_box_exp  {float:left;width:534px;margin-bottom:4px;margin-right:8px;padding-bottom:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .m_box_exp  p.text {width:504px;margin-top:5px;margin-bottom:5px;margin-left:15px;font:14px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word}
+#content .container .m_box_exp .choices {float:left;width:807px;margin-bottom:5px;margin-left:18px}
+#content .container .m_box_exp .choices input {float:left}
+#content .container .m_box_exp .choices p.text_choice {float:left;width:500px;font:12px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word;display:inline-block}
+/* video box small */
+#content .container .s_vid_box_fix  {float:left;width:289px;height:219px;margin-bottom:4px;margin-right:8px;padding-bottom:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .s_video_box {width:289px;height:193px;background:#595959;display:inline-block}
+#content .container .s_control_box {width:289px;height:28px;border-top:3px solid #c2c2c2;display:inline-block}
+/* video box medium */
+#content .container .m_vid_box_fix  {float:left;width:412px;margin-bottom:4px;margin-right:8px;padding-bottom:5px;display:inline-block}
+#content .container .m_video_box {width:412px;height:244px;margin-bottom:2px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .m_control_box {width:416px;height:32px;overflow:hidden;display:inline-block}
+#content .container .m_vid_control {float:left;width:289px;height:28px;margin-right:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .m_answer_box {float:left;width:114px;height:28px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .m_answer_box input {width:110px;height:24px;margin-left:2px;margin-top:2px;font:16px Tahoma, Geneva, sans-serif;color:#fff;background:none;border:0;outline:0}
+/* horizontal box expandable 
+#content .container .h_box_exp {width:837px;margin-bottom:4px;padding-bottom:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .h_box_exp p.text {width:807px;margin-top:5px;margin-bottom:5px;margin-left:15px;font:14px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word}*/
+/* horizontal box fixed 370px 
+#content .container .h_box_fix_l{width:837px;height:370px;margin-bottom:4px;padding-bottom:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .h_box_fix_l  p.text {width:807px;margin-top:5px;margin-bottom:5px;margin-left:15px;font:14px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word}
+#content .container .choices {float:left;width:837px;margin-bottom:5px;margin-left:18px}
+#content .container .choices input {float:left}
+#content .container .choices p {float:left;width:807px;font:12px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word;display:inline-block}
+#content .container .h_vid_box .control_box li {float:left;margin-right:1px}
+#content .container .h_vid_box .control_box {float:left;width:420px;height:32px;margin-top:1px;overflow:hidden;display:inline-block}
+#content .container .h_vid_box .control_box .control_play {width:83px;height:26px;background:url(../../images/ulearning/control_play.gif) left top no-repeat;display:inline-block;border:1px solid #343434;cursor:pointer}
+#content .container .h_vid_box .control_box_2 {float:left;width:416px;height:32px;margin-top:-1px;background-color:#7a7a7a;overflow:hidden;display:inline-block}
+#content .container .h_vid_box .control_box_2 .video_control {margin-top:2px;margin-left:2px;display:inline-block}
+#content .container .h_vid_box .control_box_2 .video_control li {float:left;margin-right:2px}
+#content .container .h_vid_box .control_box_2 .control_play {width:83px;height:26px;background:url(../../images/ulearning/control_play.gif) left top no-repeat;display:inline-block;border:1px solid #343434;cursor:pointer}
+#content .container .h_vid_box .control_box_2 .control_rec {width:83px;height:26px;background:url(../../images/ulearning/control_record.gif) left top no-repeat;display:inline-block;border:1px solid #343434;;cursor:pointer}
+#content .container .h_vid_box .control_box_2 .vid_timer_column {float:left;width:240px;height:28px;margin-top:-2px;display:inline-block}
+#content .container .h_vid_box .control_box_2 .vid_timer_column .play_timer {width:78px;height:14px;text-align:right;background:#fff;border:1px solid #373737;display:inline-block}
+#content .container .h_vid_box .control_box_2 .vid_timer_column .timer_title {margin-bottom:0;font:10px Tahoma, Geneva, sans-serif;}
+#content .container .h_vid_box .control_box_2 .vid_timer_column .time_remaining {margin-right:2px;font:10px Tahoma, Geneva, sans-serif;color:#393939}*/
+/* no box fixed height | 2 columns */
+#content .container .no_box_fix  {float:left;width:416px;height:310px;margin-bottom:4px;margin-right:8px;padding-bottom:5px;display:inline-block}
+#content .container .no_box_fix  p.text {width:382px;margin-top:5px;margin-bottom:6px;margin-left:15px;font:14px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word}
+/* box fixed height | 2 columns */
+#content .container .box_fix  {float:left;width:412px;height:306px;margin-bottom:4px;margin-right:8px;padding-bottom:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .box_fix  p.text {width:382px;margin-top:5px;margin-bottom:6px;margin-left:15px;font:14px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word}
+/* box expandable height | 2 columns */
+#content .container .box_exp  {float:left;width:412px;margin-bottom:4px;margin-right:8px;padding-bottom:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .box_exp  p.text {width:382px;margin-top:5px;margin-bottom:6px;margin-left:15px;font:14px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word}
+/* exam box container no backround, no box */
+#content .container .exam_box {width:100%;margin-top:20 px;display:inline-block}
+#content .container .exam_box .exam {width:100%;margin-bottom:10px;padding-bottom:10px;font:16px Tahoma, Geneva, sans-serif;color:#fff;border-bottom:1px solid #d3d3d3;display:inline-block}
+/* multiple choice 
+#content .container .multiple_choice{float:left;width:170px;margin-bottom:5px;margin-left:18px}
+#content .container .multiple_choice input {float:left;width:20px}
+#content .container .multiple_choice p.m_choice {float:left;width:150px;font:12px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word;display:inline-block}*/
+/* multiple choice - long 
+#content .container .multiple_choice_l {float:left;width:360px;margin-bottom:5px;margin-left:18px}
+#content .container .multiple_choice_l  input {float:left;width:20px}
+#content .container .multiple_choice_l  p.m_choice {float:left;width:340px;font:12px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word;display:inline-block}*/
+/* multiple choice - whole 
+#content .container .multiple_choice_w {float:left;width:807px;margin-bottom:5px;margin-left:18px}
+#content .container .multiple_choice_w input {float:left}
+#content .container .multiple_choice_w p {float:left;width:792px;font:12px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word;display:inline-block}*/
+/* question format 
+#content .container .question_tarea {width:830px;margin:10px 0;display:inline-block}
+#content .container .question_tarea .question_p {margin-left:10px;font:14px Tahoma, Geneva, sans-serif;color:#fff}
+#content .container .question_number {float:left;margin-right:5px;display:inline-block}
+#content .container .question_a {float:left;width:510px;display:inline-block}
+#content .container .choices_2 {width:100%;text-align:center}
+#content .container .answer_2 {margin-right:5px;cursor:pointer}
+#content .answer_box_2 {float:left;width:133px;height:28px;margin-right:2px;background-color:#7a7a7a;border:3px solid #d3d3d3;display:inline-block}
+#content .container .answer_box_2 input {width:129px;height:24px;margin-left:2px;margin-top:2px;font:16px Tahoma, Geneva, sans-serif;color:#fff;background:none;border:0;outline:0}*/
+/* answer 
+#content .container .answer_box_numbered {float:left;width:191px;height:28px;margin-right:12px;margin-bottom:20px;background-color:#7a7a7a;border:2px solid #d3d3d3}
+#content .container .answer_box_numbered strong {float:left;margin-top:4px;margin-left:2px;font:bold 16px Tahoma, Geneva, sans-serif;color:#fff;}
+#content .container .answer_box_numbered input {float:left;width:155px;height:26px;margin-left:5px;font:14px Tahoma, Geneva, sans-serif;color:#fff;border:0;outline:0;background:none}
+#content .container .answer_area_box_l {width:817px;height:370px;padding:10px;font:12px Tahoma, Geneva, sans-serif;color:#fff;background:none;resize:none;border:0;outline:0}
+#content .container .answer_area_box {width:392px;height:291px;padding:10px;font:12px Tahoma, Geneva, sans-serif;color:#fff;background:none;resize:none;border:0;outline:0}
+#content .container .answer_area {width:817px;height:126px;padding:10px;font:12px Tahoma, Geneva, sans-serif;color:#fff;background-color:#7a7a7a;border:2px solid #d3d3d3;resize:none;outline:0}
+#content .container .answer{float:left;width:255px;margin-bottom:5px;margin-left:18px}
+#content .container .answer_box {float:left;width:236px;height:28px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .answer input {width:232px;height:24px;margin-left:2px;margin-top:2px;font:16px Tahoma, Geneva, sans-serif;color:#fff;background:none;border:0;outline:0}
+#content .container .answer p {float:left;width:15px;font:12px Tahoma, Geneva, sans-serif;color:#fff;word-wrap:break-word;display:inline-block}
+#content .container  .answer_box_3 {width:114px;height:28px;margin-bottom:2px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container  .answer_box_3 input {width:110px;height:24px;margin-left:2px;margin-top:2px;font:16px Tahoma, Geneva, sans-serif;color:#fff;background:none;border:0;outline:0}*/
+/* video box small */
+#content .container .s_vid_box_fix  {float:left;width:289px;height:219px;margin-bottom:4px;margin-right:8px;padding-bottom:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .s_video_box {width:289px;height:193px;background:#595959;display:inline-block}
+#content .container .s_control_box {width:289px;height:28px;border-top:3px solid #c2c2c2;display:inline-block}
+/* video box medium */
+#content .container .m_vid_box_fix  {float:left;width:416px;margin-bottom:4px;margin-right:8px;padding-bottom:5px;display:inline-block}
+#content .container .m_video_box {width:412px;height:244px;margin-bottom:2px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .m_control_box {width:416px;height:32px;overflow:hidden;display:inline-block}
+#content .container .m_vid_control {float:left;width:289px;height:28px;margin-right:5px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .m_answer_box {float:left;width:114px;height:28px;background-color:#7a7a7a;border:2px solid #d3d3d3;display:inline-block}
+#content .container .m_answer_box input {width:110px;height:24px;margin-left:2px;margin-top:2px;font:16px Tahoma, Geneva, sans-serif;color:#fff;background:none;border:0;outline:0}
+#content .container .m_control_box .video_control {margin-top:0px;display:inline-block}
+#content .container .m_control_box .video_control li {float:left;margin-right:1px}
+#content .container .m_control_box .control_play {width:83px;height:26px;background:url(../../images/ulearning/control_play.gif) left top no-repeat;display:inline-block;border:1px solid #343434;cursor:pointer}
+#content .container .m_control_box .control_rec {width:83px;height:26px;background:url(../../images/ulearning/control_record.gif) left top no-repeat;display:inline-block;border:1px solid #343434;;cursor:pointer}
+#content .container .m_control_box .vid_timer_column {float:left;width:55px;height:28px;margin-top:-2px;margin-right:5px !important;margin-left:10px;padding-left:10px;border-left:1px solid #d3d3d3;display:inline-block}
+#content .container .m_control_box .vid_timer_column .play_timer {width:53px;height:14px;text-align:right;background:#fff;border:1px solid #373737;display:inline-block}
+#content .container .m_control_box .vid_timer_column .timer_title {margin-bottom:0;font:10px Tahoma, Geneva, sans-serif;}
+#content .container .m_control_box .vid_timer_column .time_remaining {margin-right:2px;font:10px Tahoma, Geneva, sans-serif;color:#393939}
+#content .container .m_control_box_2 {width:416px;height:32px;background-color:#7a7a7a;overflow:hidden;display:inline-block}
+#content .container .m_control_box_2 .video_control {margin-top:3px;margin-left:2px;display:inline-block}
+#content .container .m_control_box_2 .video_control li {float:left;margin-right:2px}
+#content .container .m_control_box_2 .control_play {width:83px;height:26px;background:url(../../images/ulearning/control_play.gif) left top no-repeat;display:inline-block;border:1px solid #343434;cursor:pointer}
+#content .container .m_control_box_2 .control_rec {width:83px;height:26px;background:url(../../images/ulearning/control_record.gif) left top no-repeat;display:inline-block;border:1px solid #343434;;cursor:pointer}
+#content .container .m_control_box_2 .vid_timer_column {float:left;width:240px;height:28px;margin-top:-2px;display:inline-block}
+#content .container .m_control_box_2 .vid_timer_column .play_timer {width:78px;height:14px;text-align:right;background:#fff;border:1px solid #373737;display:inline-block}
+#content .container .m_control_box_2 .vid_timer_column .timer_title {margin-bottom:0;font:10px Tahoma, Geneva, sans-serif;}
+#content .container .m_control_box_2 .vid_timer_column .time_remaining {margin-right:2px;font:10px Tahoma, Geneva, sans-serif;color:#393939}
+/* control */
+#content .container .timer_column {width:85px;margin-top:10px;margin-right:30px;margin-left:10px;display:inline-block;float:left}
+#content .container .timer_column .play_timer {width:83px;height:15px;text-align:right;background:#fff;border:1px solid #373737;display:inline-block}
+#content .container .timer_column .timer_title {margin-bottom:0;font:12px Tahoma, Geneva, sans-serif;}
+#content .container .timer_column .time_remaining {margin-right:2px;font:12px Tahoma, Geneva, sans-serif;color:#393939}
+#content .container .exam_control {margin-top:15px;display:inline-block}
+#content .container .exam_control li {float:left;margin-right:1px;border:1px solid #343434}
+#content .container .exam_control .control_rec {width:83px;height:26px;background:url(../../images/ulearning/control_record.gif) left top no-repeat;display:inline-block;border:0;cursor:pointer}
+#content .container .exam_control .control_play {width:83px;height:26px;background:url(../../images/ulearning/control_play.gif) left top no-repeat;display:inline-block;border:0;cursor:pointer}
+
+/* bottom content */
+#content .bottom_content {width:100%;display:inline-block}
+#content .bottom_content li {float:left;margin:1px 0 1px 1px}
+#content .bottom_content .con_1 {width:285px;height:46px;background:url(../../images/ulearning/content_footer.gif) left top no-repeat;display:inline-block}
+#content .bottom_content .con_2 {width:164px;height:46px;font:bold 14px Tahoma, Geneva, sans-serif;color:#583f00;text-align:right;background:url(../../images/ulearning/content_foot_1_b.gif) left top no-repeat;display:inline-block}
+#content .bottom_content .con_2 .deadline {margin-top:15px;margin-right:10px;display:inline-block}
+#content .bottom_content .con_3 {width:209px;height:46px;background:url(../../images/ulearning/content_foot_2.gif) left top no-repeat;display:inline-block}
+#content .bottom_content .con_3 .control {width:196px;height:23px;margin-top:12px;margin-left:6px;display:inline-block}
+#content .bottom_content .con_4 {width:312px;height:46px;background:url(../../images/ulearning/content_button.gif) left top no-repeat;display:inline-block}
+#content .bottom_content .con_4 .btn{width:311px;height:46px;font:bold 14px Tahoma, Geneva, sans-serif;text-align:center;color:#fff;display:inline-block}
+#content .bottom_content .con_4 a:hover {color:#e4e4e4;text-decoration:none}
+#content .bottom_content .con_4 .btn strong {margin-top:14px;display:inline-block}

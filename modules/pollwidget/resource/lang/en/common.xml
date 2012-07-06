@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang>
+    <menu>  
+        <var name="pollwidget">Poll Widget</var>
+        <var name="PollwidgetPagePollAdd">Poll Widget</var>
+        <var name="PollwidgetPagePollEdit">Poll Widget</var>
+        <var name="PollwidgetPagePollResult">Poll Widget</var>
+        <mostbutton>
+            <var param="PollwidgetPagePollList">Add New Question</var>
+            <var param="PollwidgetPagePollAdd">Add New Question</var>
+            <var param="PollwidgetPagePollEdit">Add New Question</var>
+            <var param="PollwidgetPagePollResult">Add New Question</var>
+        </mostbutton>
+    </menu>
+    <var name="lang">subject</var>
+    <var name="name">Subject</var>
+</lang>

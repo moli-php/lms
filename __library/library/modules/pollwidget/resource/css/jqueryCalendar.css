@@ -1,0 +1,56 @@
+/* .pop_calendar */ 
+.pop_calendar {width:180px !important; border-left:1px solid #84a9d1; border-right:1px solid #84a9d1; border-bottom:1px solid #84a9d1;display:none;position:absolute;left:0;top:0;z-index:10000 !important;background-color:#ffffff}
+.pop_calendar .calendar_header {height:14px; text-align:right; background:#84a9d1;}
+.pop_calendar .calendar_header a {width:14px; height:14px; margin-right:-2px; background:url(/_sdk/img/pollwidget/btn_calendar.gif) left top; display:inline-block; overflow:hidden;}
+.pop_calendar .calendar_header a:hover {background-position:-13px top;}
+.pop_calendar .calendar_header a span {position:absolute; z-index:-1; visibility:hidden;}
+
+.pop_calendar .calendar_cont {padding:5px;text-align:center !important}
+.pop_calendar ul.day_select {width:146px !important;display:inline-block}
+.pop_calendar ul.day_select li {float:left; height:18px; display:inline-block;}
+.pop_calendar ul.day_select li a {width:14px; height:14px; margin-top:2px; background:url(/_sdk/img/pollwidget/btn_calendar.gif) left top; display:inline-block;}
+.pop_calendar ul.day_select li.prev a {margin-right:4px; background-position:-28px top;}
+.pop_calendar ul.day_select li.next a {margin-left:4px; background-position:-42px top;}
+.pop_calendar ul.day_select li a span {position:absolute; z-index:-1; visibility:hidden;}
+.pop_calendar .calendar {clear:both !important; width:150px; margin-top:8px;margin-left:9px;*margin-left:1px;}
+.pop_calendar .calendar th {font-size:11px !important; font-weight:bold !important; color:#333; border-bottom:1px solid #d8d8d8;}
+.pop_calendar .calendar th.sunday {color:#cc3333;}
+.pop_calendar .calendar th.saturday {color:#436fc8;}
+.pop_calendar .calendar td {width:19px !important; padding:1px 2px 0 2px; font-size:11px; text-align:center;}
+.pop_calendar .calendar td.line_bt {height:2px;}
+.pop_calendar .calendar td.sunday a {color:#cc3333 !important;}
+.pop_calendar .calendar td.sunday a:hover, .pop_calendar .calendar td.sunday_now a:hover {color:#cc3333;}
+.pop_calendar .calendar td a {color:#666 !important; text-decoration:none;font-weight:bold;}
+.pop_calendar .calendar td a:hover {color:#333; text-decoration:underline;}
+.pop_calendar .calendar td.now a {width:17px; height:14px; color:#436fc8; background:#f1f6fb; display:inline-block;}
+.pop_calendar .calendar td.now a:hover {color:#436fc8;}
+.pop_calendar .calendar td.sunday_now a {width:17px; height:14px; color:#cc3333; background:#f1f6fb; display:inline-block;}
+  
+.pop_calendar .calendar .currentweek {color:#cc3333; background:#f1f6fb; }  
+.pop_calendar .calendar .weekhover  {color:#436fc8; background:#f1f6fb;}
+.pop_calendar .calendar .month_body {color:#436fc8; background:#f1f6fb;}
+.year_select {float:left;margin-right:5px;font-size:10px; width:60px !important;}
+.month_select {float:left;font-size:10px; width:45px !important;}
+
+.skin_setup_wrap {position:relative; float:left; width:100%;}
+.skin_setup {float:left; padding:3px 10px 8px 10px; border:1px solid #b0b8c5; background:#f1f6fb;}
+.skin_area {float:left; width:611px;}
+.skin_area .tab01_long li a {min-width:50px; padding:6px 8px 4px 8px;}
+.skin_area .tab01_long li.on a {min-width:50px; padding:6px 8px 4px 8px;}
+.skin_img_big {position:relative; clear:both; float:left; margin-top:-11px; width:580px; height:355px; padding:10px 15px; text-align:center; border:1px solid #b0b8c5; background:#fff;}
+.skin_img_big .btn_skin_prev {position:absolute; top:50%; left:50px; margin:-8% 0 0 0; z-index:100;}
+.skin_img_big .btn_skin_next {position:absolute; top:50%; right:50px; margin:-8% 0 0 0; z-index:100;}
+.skin_list {float:right; width:140px; height:375px; margin:26px 0 0 6px; border:1px solid #b0b8c5; background:#fff; display:inline; overflow-y:scroll;}
+.skin_list dl {float:left; width:108px; padding:7px 0 0 7px;}
+.skin_list dt {}
+.skin_list dd {clear:both; float:left; width:108px; margin-bottom:10px; text-align:center; border:1px solid #e6e6e6; cursor:pointer;}
+.skin_list dd img {vertical-align:top;}
+.skin_list dd.on {border:2px solid #77c0d7;}
+
+.skin_img_view #skinImgThum {position:absolute; top:36%; left:0; right:0;}
+.skin_img_view #skinImgBack {position:absolute; top:25%; left:0; right:0;}
+
+.template_wrap li {float:left;margin-right:20px}
+.template_wrap input.fix_radio {width:20px}
+.img_calendar {vertical-align:middle}
+/*.coupon_set_date img {vertical-align:middle;}*/

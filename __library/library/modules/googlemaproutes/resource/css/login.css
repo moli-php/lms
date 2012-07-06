@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {padding:0;margin:0;}
+body {font-size:12px;font-family:'Lucida Grande', tahoma, verdana, arial, sans-serif;color:#7a7a7a;background:#f7f7f6}
+a img {border:0;}
+.wrap {width:525px;margin:0 auto;padding:20px 0;}
+.wrap:after {content:"";clear:both;display:block;}
+
+.logo {clear:both;float:left;margin:0 0 15px 2px;line-height:0;display:inline;}
+
+form {clear:both;float:left;width:446px;height:217px;padding:41px 40px 0 39px;border:1px solid #e1e1e1;border-bottom-width:4px;background:#fff;display:inline-block;}
+
+form p {float:left;width:100%;}
+form p.textfield {margin:0 0 15px 0;}
+form p.textfield input {width:323px;height:17px;padding:9px 10px 9px 15px;font-size:14px;color:#555;border:0;background:#e5e5e5;}
+form p.textfield label {width:90px;height:35px;line-height:35px;display:inline-block;}
+
+form p.save_login input {float:left;width:13px;height:13px;margin:1px 4px 0 90px;}
+form p.save_login label {float:left;font-size:10px;line-height:15px;}
+
+p.submit_btn {width:auto;margin:35px 0 0 93px;display:inline;}
+p.submit_btn input {width:59px;height:26px;margin:0 9px 0 0;color:#fff;border:0;background:url("../images/button.jpg") no-repeat left top;cursor:pointer; text-align:center !important;padding:0 !important;}
+p.submit_btn a {margin-top:5px;font-size:11px;color:#3c7cb4;display:inline-block;vertical-align:top;}
+
+.heading {float:left; margin:0 0 30px 0;}
+.heading h2 {float:left;margin:-8px 0 -3px 0;font-size:16px;line-height:2;}
+.heading p {clear:left;float:left;width:auto; margin:0; line-height:16px;white-space:nowrap;}
+.lost_pass p.submit_btn {margin-top:17px;}
+
+
+.warn_border {border:2px solid #dc4e22;display:inline-block;}

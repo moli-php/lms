@@ -1,0 +1,66 @@
+/* reset */
+ul li {list-style:none}
+
+.spn_search{float: right;}
+#category_wrap{ background: #fff; padding: 5px;}
+.module_title{font-weight: bold;}
+
+.btn_poll_expand {height:24px;padding:0 0 0 5px;background:url(/_sdk/img/pollwidget/bg_button.gif) left top;display:inline-block}
+.btn_poll_expand em {height:24px;padding:0 5px 0 0;background:url(/_sdk/img/pollwidget/bg_button.gif) right center no-repeat;display:inline-block}
+.btn_poll_expand input {float:left;margin-top:4px;font-weight:bold;background:none;color:#fff;cursor:pointer;border:0}
+
+#pollwidget_top {width:100%;display:inline-block}
+.question_number  {float:left;height:15px;margin-right:5px;padding:0 0 1px 2px;font:bold 11px Verdana, Arial, serif;color:#fff;background:url(/_sdk/img/pollwidget/bg_questio.gif) left top no-repeat;display:inline}
+.question_number span  {height:15px;padding:0 2px 1px 0;background:url(/_sdk/img/pollwidget/bg_questio.gif) right top no-repeat}
+.question_title {float:left;width:90%;font:bold 11px verdana;color:#595959;word-wrap:break-word}
+.pollwidget_choices_list {width:100%;}
+.pollwidget_choices_list li {float:left;width:98%;margin:0 0 8px 0;padding-bottom:8px;border-bottom:1px dashed #595959;display:inline}
+.pollwidget_choices_list .input_radio, .pollwidget_choices_list .input_checkbox, .pollwidget_choices_list .input_dropbox {float:left;font:11px Verdana, Arial, serif}
+.pollwidget_choices_list .input_dropbox {margin-top:-2px}
+.pollwidget_choices_list .choice_label {float:left;width:80%;margin-left:5px;font:11px Verdana, Arial, serif;word-wrap:break-word}
+.pollwidget_choices_list .choice_texarea {width:100% !important;height:80px;resize:none}
+.pollwidget_choices_list  .textarea_counter {float:right;margin-top:5px;margin-right:-2px}
+
+
+
+/* Overwrite jQuery Ui styles */
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0 !important;
+}
+.ui-widget-overlay {
+    background: repeat scroll 50% 50% #FFFFFF !important;
+    opacity: 0.8 !important;
+}
+.ui-widget-content {
+    background: repeat-x scroll 50% top #FFFFFF !important;
+    /* border: none !important; */
+    color: #333333 !important;
+}
+.bigMap_container_border{ border: 1px solid #CCCCCC !important}
+.ui-widget-header {
+    background: scroll 50% 50% !important;
+    border: none !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+.ui-widget-header .ui-icon{
+    /*background-image:url("../../images/index/popup/ui-icons_000000_256x240.gif") !important;
+    position: absolute;
+    right: 28px;
+    top: 40px; */
+    z-index: 5;
+}
+.ui-state-hover{
+   /* border: none !important;
+    background: none !important; */
+}

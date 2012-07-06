@@ -1,0 +1,99 @@
+textarea#my_textarea{height: 200px;width: 660px;}
+.recordform_dialog{text-align:left;}
+.recordform_table{width:100%;}
+.recordform_table tr td{text-align:left;padding:5px 2px 5px 2px;}
+.recordform_table tr td label{font-weight:bold;}
+
+.show_message_container{border:solid 1px #CCC;margin:8px 0 8px 0;padding:5px;overflow:auto;font-size:11px;background:whitesmoke;}
+
+.message_label{font-weight:bold;display:block;margin:5px 0 5px 0;font-size:13px;color:#333333;}
+.message_main{border-top:dashed 1px #CCC;margin:15px 0 0 0;padding:7px;font-size:13px;}
+.alert_mess{display:block;padding:7px;font-size:12px;margin:10px 0 10px 0;font-weight:bold;color:gray;}
+.message_label span{font-weight:normal;display:inline;margin:5px 0 5px 0;font-size:13px;color:#333333;}
+
+.dynbtn{
+margin-left: 5px;
+padding: 3px 5px 3px 5px;
+font: 11px "Lucida Sans Unicode", "Lucida Grande", Arial;
+background: url(../images/table_headbg.png) left bottom repeat-x #FEFEFE;
+border: 1px solid #999;
+border-radius: 5px;
+}
+
+.dynbtn:hover {
+text-decoration: none;
+color: #DC4E22 !important;}
+
+.message_email {margin-bottom:5px;display:inline-block}
+.message_email .search_user li {width:100%;display:inline-block}
+.message_email li {float:left;width:auto;display:inline}
+.message_email input.checkb {float:left;margin-right:5px}
+.message_email  label {float:left;display:inline-block}
+.message_email  p {margin-left:10px;display:inline-block}
+.message_email .other_options {margin-top:5px;display:inline-block}
+.message_email .other_options  li {height:24px}
+.other_options input[type="checkbox"] {margin-top:2px}
+.message_email .small {border:1px solid #ccc;width:60px !important}
+.message_content_1_1 {width:100%;height:150px;overflow:auto;border:1px solid #ccc;display:inline-block}
+.message_content_1_1 p {margin-bottom:5px}
+
+.message_email .btn {padding:4px 5px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline-block;cursor:pointer}
+.message_email input[type="file"] {float:left;margin-right:10px}
+.message_email li strong {width:100%;margin-bottom:10px;display:inline-block}
+
+.message_email .add_email, .message_email  .search_result {margin-top:10px}
+.message_email .add_email .fix {float:left;margin:0 10px 0 -10px;border:1px solid #ccc;width:180px !important}
+.message_email .add_email .btn {padding:1px 5px}
+.message_email .btnup {padding:1px 2px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline-block;cursor:pointer}
+
+.message_email .add_email ul, .message_email  .search_result ul {width:230px;height:140px !important;margin-top:5px;overflow:auto;text-align:center;background-color:#fff;border:1px solid #ccc;display:block}
+.message_email .add_email  li,.message_email  .search_result li {width:96%;height:18px;margin:2px 0;padding:0 2px;text-align:left;display:inline-block}
+.message_email .add_email  .btn_remove {width:232px;padding:3px 0;text-align:center;background-color:#ccc;margin:0 0 0 -10px;display:inline-block}
+.message_email .add_email  a:hover {text-decoration:none}
+.message_email .add_email .selected,.message_email .search_result .selected {color:#292929;background-color:#9dd08d}
+
+.view_email  .search_result ul {width:232px;height:240px;margin-top:5px;overflow:auto;text-align:left;background-color:#fff;border:1px solid #ccc;display:block}
+
+.message_email  .search_result strong {margin-bottom:-3px}
+.message_email  .view_type {margin-bottom:10px}
+.message_email  .view_type li {float:left;width:120px;margin-right:10px;display:inline}
+.message_email  .view_type input {float:left;margin-right:4px}
+
+.message_email .add_csv, .message_email .add_email {display:inline-block}
+.message_content .text_editor {margin-top:5px;border:1px solid #ccc;display:inline-block}
+.message_content label {font-weight:bold;margin-right:10px}
+.message_content input {width:618px;border:1px solid #ccc}
+.message_content textarea {width:660px;height:90px;border:0;resize:none}
+
+.popup_window .action_btn {margin:0 5px}
+.popup_window .action_btn li {float:left;margin:0 5px 0 2px}
+.popup_window .btn_save {float:left;margin-top:4px;padding:4px 20px 5px 20px;font:12px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline;font-weight:bold}
+.popup_window .btn_save:hover {text-decoration:none;color:#Dc4e22 !important}
+
+.popup_window #editor .action_btn {float:right;margin-right:40px}
+.popup_window #editor .btn_save {float:left;margin-top:4px;padding:4px 20px 5px 20px;font:12px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline;font-weight:bold}
+.popup_window #editor .btn_save:hover {text-decoration:none;color:#Dc4e22 !important}
+.sort_up{width: 9px;
+height: 5px;
+padding-right: 15px;
+background: url(../images/sort_down.gif) no-repeat right 5px}
+.new_tpl_dialog  .btn {padding:4px 5px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline-block;cursor:pointer}
+
+.other_options .checkb {float:left}
+.other_options p {float:left;margin:0;padding:0;display:inline-block}
+.agefrom, .ageto {margin:0 3px;display:inline}
+.add_email label.error {float:right}
+.agefrom label.error {float:right !important;display:none}
+.ageto label.error {float:right !important;display:none}
+
+.sms_template {margin-top:10px}
+.sms_template .templates_list li {float:left;width:200px;margin:0 20px 20px 0;vertical-align:top;text-align:center;display:inline}
+.sms_template .template_head {margin-bottom:5px;display:inline-block}
+.sms_template .template_head .radio {float:left}
+.sms_template .template_head .template_name {width:95px;background:none;border:0;font-weight:600}
+.sms_template .template_head label {margin:0 10px 0 5px;font-weight:600}
+.sms_template .template_bg {width:163px;height:152px;margin-bottom:5px;background:url(../images/sms_bg.png) left top no-repeat;display:inline-block}
+.sms_template .template_bg textarea {width:110px;height:90px;margin:30px 0 0 -3px;resize:none;padding:5px 5px;background:none;border:0;outline:0;color:#fff;display:inline-block}
+.sms_template .template_bg p {width:120px;height:88px;margin:40px 0 0 -3px;overflow:auto;background:none;border:0;outline:0;color:#fff;display:inline-block;text-align:left}
+.sms_template .template_size {width:100%;margin:5px 0;display:inline-block}
+.sms_template .template_size span.overlimit {color:#f30f0f}

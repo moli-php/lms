@@ -1,0 +1,28 @@
+.popup_content {overflow-y:auto;height:400px;}
+
+.data_list {width:100%;border:1px solid #cecece;border-collapse:collapse;}
+.data_list tbody td {color:#000;font-size:12px;padding:5px;font-family:Tahoma;border-right:1px solid #cecece;border-top:1px solid #cecece;}
+.data_list tr:hover {background:#def8d1;}
+.data_list thead th {background: #f3f3f3;font-weight:bold;font-size:12px;font-family:Tahoma;color:#787169;text-align:center;}
+.data_list thead th.startDate {width:200px; padding:10px 0 9px 0;border-right:1px solid #cecece;}
+.data_list thead th.endDate {width:200px; padding:10px 0 9px 0;border-right:1px solid #cecece;}
+.data_list thead th.grade {width:130px; padding:10px 0 9px 0;border-right:1px solid #cecece;}
+.data_list thead th.status {width:50%;padding:10px 0 9px 0;border-right:1px solid #cecece;}
+.data_list thead th.ip {width:300px;padding:10px 0 9px 0;border-right:1px solid #cecece;}
+
+.result_table {margin-bottom:10px;text-align:left;font-family:Tahoma, Geneva, Arial, Sans-serif;border:1px solid #cecece}
+.result_table thead th {height:29px;background-color:#def8d1;border-bottom:1px solid #cecece}
+.result_table thead td {height:29px;padding:0 10px;color:#000;font-weight:bold;background-color:#a7a7a7;border-right:1px solid #cecece;border-bottom:1px solid #cecece}
+.result_table td.last {border-right:0}
+.result_table thead p {margin:2px 0 0 10px;font:bold 12px Tahoma, Geneva, Arial, Sans-serif;color:#0000ff;display:inline-block}
+.result_table tbody td {height:46px;padding:5px 10px;background-color:#fff;font-size:11px;border-right:1px solid #cecece;border-bottom:1px solid #cecece;}
+.result_table tfoot {text-align:right}
+.result_table tfoot td {height:30px;vertical-align:middle}
+.result_table tfoot td label {font-weight:bold;color:#800093}
+.result_table tfoot td .result_value {width:137px;height:15px;padding:0 5px;border:1px solid #999}
+.result_table tfoot td .result_submit {width:auto;height:17px;margin-right:10px;padding:0 2px;color:#393939;border:1px solid #999;cursor:pointer}
+
+.total_result {width:100%;text-align:center}
+.total_result label {width:auto;color:#ff0000;font-weight:bold;display:inline-block}
+.total_result .result_value {width:137px;height:15px;padding:0 5px;border:1px solid #999}
+.total_result .result_submit {width:auto;height:17px;margin-right:10px;padding:0 2px;color:#393939;border:1px solid #999;cursor:pointer}

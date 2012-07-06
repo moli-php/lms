@@ -1,0 +1,28 @@
+/*menu*/
+.menu{width:49%;margin:-10px 0 10px;min-height:300px;float:left;}
+.menu .menu_item{margin:10px 5px 0;position:relative;border:1px solid #b6b6b6;}
+.wrapper_menu{margin-left:30px;text-align:center;width:98%;display:inline-block;margin-bottom:20px;}
+.menu .menu_item{background-color:#f2f2f2;text-align:left;border:1px solid #b6b6b6;position:relative;margin:10px 5px 0;}
+.menu .menu_item .title {width:100%;height:25px;background-color:#cdcdcd;border-bottom:2px solid #b6b6b6;cursor:move}
+.menu_item .title span {float:left;width:97%;margin:5px 0 0 5px;font-size:14px;cursor:move}
+.menu_item .title .toggle{text-decoration:none;display:inline-block;margin-top:5px;height:20px;}
+.menu_item .content {width:97%;padding:5px 10px;}
+.menu .placeholder{background: #f0f0f0; border:1px dashed #ddd;text-align:left;position:relative;margin:10px 5px 0;}
+
+
+/*menu Management*/
+.menu {float:left;width:98%;max-width:98%;}
+.menu_order .menu_order_item strong{width:98%;max-width:98%;cursor:move;}
+.menu_list {width:80%;margin-left:15px;display:inline-block}
+.menu_list li {float:left;margin-right:10px}
+.menu_list input {float:left;margin-right:5px}
+.check_all_box {padding-left:5px;font:11px;font-weight:normal;}
+.menu_order {width:500px;margin:20px 0 5px 15px;padding:2px 5px;overflow:auto;border:1px solid #cdcdcd;float:left;}
+.menu_order .menu_order_item{height:30px;width:100%;margin:5px 0;background:#589d99;border-radius:5px 5px 5px;display:inline-block}
+.menu_order .order_selected{height:30px;width:100%;margin:5px 0;background:#242424;border-radius:5px 5px 5px;display:inline-block}
+.menu_order .menu_order_item strong {margin:7px 0 0 10px;font-size:14px;color:#fff;display:inline-block}
+.sort_buttons{float:left;margin:60px 0 0 15px;padding:2px 5px;}
+.btn_sort{width:20px;height:20px;max-width:20px;max-height:20px;}
+.error_null{color:red; font-size:13px;height:50px;max-height:50px;height:30px;width:100%;margin:5px 0;display:inline-block}
+.menu_order .placeholder{background: #f0f0f0; border:1px menued #ddd;}
+

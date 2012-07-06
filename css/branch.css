@@ -1,0 +1,5 @@
+/*branch_list*/
+#container textarea.pop_uptext{width:100%;border: 1px solid #CCCCCC;color:#777777;resize:none}
+#container .popup_window .btn_close{float:right;width:16px;height:16px}
+#container .popup_window .btn_close a.popup_close{display:inline-block;width:16px;height:16px;background:url(../images/popup_close.png) no-repeat}
+#container .popup_window .btn_close a.popup_close:hover{background:url(../images/popup_closehover.png) no-repeat}

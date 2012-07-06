@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+#middle_subpage	{margin:0 0 0 0 !important;float:left;}
+#main_subpage		{clear:both;padding:0 10px 0 20px;}
+#wrap {height:100%}
+
+/* update module icon */
+#header {zoom:1;}
+#header .icon_update {width:8px;padding-right:10px}
+.global_menu .builder li.exte a {width:98px;}
+.global_menu .builder li.exte_hover a {width:98px;}
+.extension_update_icon 	{float:left;width:40px;margin:-8px -13px 0 0;z-index:100;text-align:right;}
+.global_menu .user 	{float:right;margin:13px 20px 0 0;font-size:0;}
+#header .logo {margin:10px 0 0 18px;height:37px;}
+.scroll_left {margin-right:-4px;}
+
+/*2nd menu */
+.main_menu .second dd	{width:91px;}
+.main_menu .second dd a {word-wrap:break-word !important;white-space: !important;}
+
+
+.thmb_dsc_lst dl dt a .icon_update {width:8px;padding-right:10px}
+.thmb_lst dl dt a .icon_update {width:8px;padding-right:10px}
+
+/*---------------------- table ----------------------*/
+.table_header_area .row_1 li.search .input_text {padding:1px 0 0 10px;}
+.table_header_area .row_2 label {display:inline-block;padding-top:4px}
+.table_header_area .row_2 li a {vertical-align:top}
+
+/*---------------------- page ----------------------*/
+
+/* html editor */
+.html_editor {float:none}
+
+
+/* left update module icon */
+#left_subpage .icon_update {width:8px;padding-right:10px}
+#left_subpage .icon_update {position:absolute;z-index:100;left:103px;top:0;height:16px;background:url(../_sdk/img/flickrwidget/bg_updt_num_mm_ie6.gif) left top no-repeat;font-size:11px;color:#594134}
+#left_subpage .icon_update span {display:block;height:22px;margin-left:8px;margin-right:-10px;padding:1px 1px 0 0;background:url(../_sdk/img/flickrwidget/bg_updt_num_mm_ie6.gif) right top no-repeat;line-height:normal}
+#left_subpage .icon_update strong {position:relative;left:-3px;}
+
+/* input table */
+.table_input_vr .chk_group {width:264px;height:185px}
+
+/*---------------------------------------- category -----------------------------------*/
+#categories_wrap {zoom:1}

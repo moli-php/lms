@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* background */
+#header	{background:url(../images/bg_top.gif) repeat-x;}
+.main_menu	{background:url(../images/bg_main_menu.gif) left top repeat-x;}
+
+#footer	{background:#c5c5c7;}

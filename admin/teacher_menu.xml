@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<adminmenus>
+	<menu name="Schedule" label="Schedule" page="schedule" />
+	<menu name="Student" label="Student" page="student" />
+</adminmenus>

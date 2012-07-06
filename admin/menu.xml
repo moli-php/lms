@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<adminmenus>
+    <menu name="Dashboard" label="Dashboard" page="dashboard" />
+
+    <menu name="Message" label="Message" page="message" >
+        <submenu name="Advise Management" label="Advise Management" page="advise_mngt" />
+        <submenu name="Email Management" label="Email Management" page="email_mngt" />
+        <submenu name="Email Templates" label="Email Templates" page="email_template" />
+		<submenu name="Sms Management" label="Sms Management" page="sms_mngt" />
+    </menu>
+
+     <menu name="Class" label="Class" page="class" >
+        <submenu name="Class List" label="Class List" page="classList" />
+		<submenu name="Level Test" label="Class Level Test" page="classLevelTest" />
+        <submenu name="Class Calendar" label="Class Calendar" page="classCalendar" />
+        <submenu name="Absent Student" label="Absent Student" page="absentStudent" />
+        <submenu name="Cancelled Class" label="Cancelled Class" page="classCancelled" />
+        <submenu name="Posponed Class" label="Posponed Class" page="classPosponed" />
+        <submenu name="Long Term Posponed Class" label="Long Term Posponed Class" page="classLposponed" />
+		<submenu name="Assign Holiday" label="Assign Holiday" page="classHoliday" />
+    </menu>
+
+    <menu name="User" label="User" page="user" >
+        <submenu name="User List" label="User List" page="user_list" />
+        <submenu name="Grade Management" label="Grade Management" page="grade_mngt" />
+    </menu>
+
+    <menu name="Teacher" label="Teacher" page="teacher" >
+        <submenu name="Teacher List" label="Teacher List" page="teacher_list" />
+        <submenu name="Grade Manage" label="Grade Manage" page="grade_manage" />
+        <submenu name="Statistic (Personnel)" label="Statistic (Personnel)" page="statistic_personnel" />
+        <submenu name="Statistic (Total)" label="Statistic (Total)" page="statistic_total" />
+    </menu>
+
+    <menu name="Point" label="Point" page="point" >
+        <submenu name="Point History" label="Point History" page="point_history" />
+        <submenu name="Configuration" label="Configuration" page="point_configuration" />
+    </menu>
+	<menu name="uLearning" label="ULearning" page="ulearning" >
+		<submenu name="Category Management" label="Category Management" page="cat_mngt" />
+		<submenu name="Class Material" label="Class Material" page="class_mat" />
+		<submenu name="Preview" label="Preview" page="preview" />
+		<submenu name="Homework" label="Homework" page="homework" />
+		<submenu name="Level Test(Preview)" label="Level Test(Preview)" page="leveltest_preview"  />
+		<submenu name="Level Test(Test)" label="Level Test(Test)" page="leveltest_test"  />
+		<submenu name="Test Assign" label="Test Assign" page="test_assign"  />
+		<submenu name="Test Evaluation" label="Test Evaluation" page="test_eval" />
+		<submenu name="Movie Category" label="Movie Category" page="movie_cat" />
+		<submenu name="Movie Clip" label="Movie Clip" page="movie_clip" />
+    </menu>
+
+	<menu name="Product" label="Product" page="product" >
+		<submenu name="Class" label="Class" page="productClass" />
+		<submenu name="Discount Rules" label="Discount Rules" page="productDiscountRules" />
+
+    </menu>
+
+    <menu name="Forum" label="Forum" page="forum" >
+        <submenu name="Forum Configuration" label="Forum Configuration" page="forum_conf" />
+        <submenu name="Settings" label="Settings" page="settings" />
+    </menu>
+
+    <menu name="Branch" label="Branch" page="branch" >
+        <submenu name="Branch Configuration" label="Branch Configuration" page="branch_conf" />
+        <submenu name="Settings" label="Settings" page="settings" />
+    </menu>
+
+    <menu name="Statistics" label="Statistics" page="statistics" >
+        <submenu name="Sales" label="Sales" page="salesStat" />
+        <submenu name="Member" label="Member" page="memberStat" />
+        <submenu name="Visitor Counter" label="Visitor" page="visitorStat" />
+    </menu>
+
+    <menu name="Event" label="Event" page="event" >
+        <submenu name="Add popup" label="Add popup" page="add_popup" />
+        <submenu name="Popup editor" label="Popup editor" page="popup_editor" />
+        <submenu name="Add banner" label="Add banner" page="add_banner" />
+        <submenu name="Main Banner" label="Main Banner" page="main_banner" />
+    </menu>
+
+    <menu name="Configuration" label="Configuration" page="configuration" >    
+        <submenu name="Site Configuration" label="Site Configuration" page="site_configuration" />
+        <submenu name="Dashboard Management" label="Dashboard Management" page="dashboard_management" />
+		<submenu name="Menu Management" label="Menu Management" page="menu_management"  />
+    </menu>
+</adminmenus>

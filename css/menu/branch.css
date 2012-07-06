@@ -1,0 +1,22 @@
+/*branch_list*/
+.branchessearch{float:right}
+.branchessearch form{display:inline}
+.branchessearch input{width:200px;height:16px;vertical-align:middle}
+.branchessearch a.btn_apply{text-decoration:none}
+.branchessearch a.btn_apply:hover{color:#DC4E22}
+#container .post_table td.options ul.option_btns li{display:inline;margin:3px}
+#container .post_table td.available span.online{width:16px;height:16px;padding-left:20px;background:url(../images/icons/online.png) no-repeat left}
+#container .post_table td.available span.offline{width:16px;height:16px;padding-left:20px;background:url(../images/icons/offline.png) no-repeat left;color:#7b7b7b}
+/*add_branch*/
+#container p.notice{float:right;display:inline-block}
+#container span.required{color:#ff0000}
+#container table.add_branch, #container table.add_info{display:block;margin:0 0 40px;text-align:left;vertical-align:top}
+#container .add_branch, #container .add_info{display:inline-block;margin-top:20px}
+#container .add_branch td, #container .add_info td{height:60px}
+#container .add_branch input#branchname{width:95%;border: 1px solid #CCCCCC;color:#777777}
+#container .add_branch input#branch_id, #container .add_branch input#branchcontact{width:400px;border:1px solid #CCCCCC;color:#777777}
+#container .add_branch textarea#branchdescription{width:95%;border: 1px solid #CCCCCC;color:#777777;resize:none}
+#container ul.chk_category{width:300px;padding:15px 0 15px 20px;border:1px solid #CCCCCC;background:#fff;color:#777777}
+#container ul.chk_category  li input{margin-bottom:5px}
+#container ul.chk_category ul.category_down{margin-left:15px}
+.options a:hover {text-decoration:none !important}

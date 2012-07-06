@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#wrap	{min-height:100%;margin-bottom:-43px;min-width:980px;padding:0 0 0 0;overflow:default;}
+
+/* main only */
+#main	{clear:both;line-height:1.0em;padding:0 30px 95px 20px;overflow:hidden;}
+#left	{float:left;width:49%;}
+#middle	{float:right;width:49.5%;}
+#right	{display:none;}
+#main	{}
+
+/* main&sub */
+#footer	{clear:both;width:100%;float:left;margin:0 0 0 0;min-width:980px}
+h1.logo				{float:left;}
+ul.global_menu		{float:right;}
+ul.global_menu li	{float:left;}
+#footer	{height:42px;}
+
+/* sub only */
+/* full size : content only */
+#main_wrap 	{float:left;width:100%;min-height:500px;padding:0 0 50px 0;background:#f7f7f6;}
+
+/* side & content */
+#main_subpage		{background:url(../images/bg_side_area.gif) left top repeat-y;}
+#main_subpage		{clear:both;padding:0 30px 0 20px;}
+#main_subpage:after	{content:"";clear:both;display:block;}
+
+#left_subpage	{float:left;width:160px;}
+
+#middle_subpage	{margin:0 0 0 160px;padding:0 0 93px 20px;background:url(../images/bg_content_area.gif) left top repeat-y;}
+#middle_subpage:after	{content:"";clear:both;display:block;}
+
+/* popup */
+#popup_wrap {padding:15px}
+
+

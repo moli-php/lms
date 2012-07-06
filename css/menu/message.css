@@ -1,0 +1,35 @@
+.message_email {margin-bottom:5px;display:inline-block}
+.message_email li {width:100%;display:inline-block}
+.message_email input.checkb {float:left;margin-right:5px}
+.message_email  label {float:left;display:inline-block}
+.message_email  p {margin-left:10px;display:inline-block}
+.message_email .other_options {margin-top:5px;display:inline-block}
+.message_email .other_options  li {height:24px}
+.other_options input[type="checkbox"] {margin-top:2px}
+.message_email .small {border:1px solid #ccc;width:60px !important}
+.message_content_1_1 {width:100%;height:150px;overflow:auto;border:1px solid #ccc;display:inline-block}
+.message_content_1_1 p {margin-bottom:5px}
+
+.message_email .btn {padding:4px 5px;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../images/table_headbg.png) left bottom repeat-x #fefefe;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline-block}
+.message_email input[type="file"] {float:left;margin-right:10px}
+.message_email li strong {width:100%;margin-bottom:10px;display:inline-block}
+
+.message_email .add_email, .message_email  .search_result {margin-top:10px}
+.message_email .add_email .fix {float:left;margin:0 10px 0 -10px;width:180px}
+.message_email .add_email .btn {padding:1px 5px}
+.message_email .add_email ul, .message_email  .search_result ul {width:230px;height:140px;margin-top:5px;overflow:auto;text-align:center;background-color:#fff;border:1px solid #ccc;display:block}
+.message_email .add_email  li,.message_email  .search_result li {width:96%;height:18px;margin:2px 0;padding:0 2px;text-align:left;display:inline-block}
+.message_email .add_email  .btn_remove {width:232px;padding:3px 0;text-align:center;background-color:#ccc;margin:0 0 0 -10px;display:inline-block}
+.message_email .add_email  a:hover {text-decoration:none}
+.message_email .add_email .selected,.message_email .search_result .selected {color:#292929;background-color:#9dd08d}
+
+.message_email  .search_result strong {margin-bottom:-3px}
+.message_email  .view_type {margin-bottom:10px}
+.message_email  .view_type li {float:left;width:120px;margin-right:10px;display:inline}
+.message_email  .view_type input {float:left;margin-right:4px}
+
+.message_email .add_csv, .message_email .add_email {display:none}
+.message_content .text_editor {margin-top:5px;border:1px solid #ccc;display:inline-block}
+.message_content label {font-weight:bold;margin-right:10px}
+.message_content input {width:618px;border:1px solid #ccc}
+.message_content textarea {width:660px;height:90px;border:0;resize:none}

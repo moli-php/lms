@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@import url("common.css");
+@import url("menu.css");
+@import url("layout.css");
+@import url("color.css");
+
+
+/* toggle option */
+.option_wrap {padding:5px 0 0 17px}
+/* calendar */
+.calendar		{position:relative;display:inline-block;vertical-align:top}
+.calendar img	{margin-top:2px;vertical-align:top}
+
+/* images select option */
+.plugin_select_image				{margin-top:15px}
+.plugin_select_image dt				{float:left;color:#444}
+.plugin_select_image dd				{margin:0 0 5px 125px}
+.plugin_select_image dd.image img		{border:1px solid #e0e0e0}
+.plugin_select_image dd.fix_image img	{border:1px solid #e0e0e0}
+.plugin_select_image dd.fix_image img.delete {width:auto;height:auto;border:none;vertical-align:middle}
+.plugin_select_image .image_information {font-size:11px;color:#444}
+/* images select option2: no title */
+.plugin_select_image2 dd {float:left;margin-right:15px;margin-bottom:15px;}
+.plugin_select_image2 img {vertical-align:middle;}
+/* images select option3 */
+ul.plugin_select_image3:after {content:"";clear:both;display:block;}
+.plugin_select_image3 li {float:left;margin:10px 10px 0 0;}
+.plugin_select_image3 img {vertical-align:middle;}
+/* images select optoin3> layer */
+.layer_normal ul.plugin_select_image3 {background:#fff;*zoom:1;}
+.layer_normal .plugin_select_image3 li {margin:10px;}
+
+/* order setting */
+.plugin_order_list .option_icon {vertical-align:middle;}
+
+/* form style */
+input.fix_100 {width:100px}
+input.fix_200 {width:200px} span.fix_200 {display:inline-block;width:205px;float:left;}
+input.no_border {border:0;}
+
+/* reset for iframe */
+.table_header_area {margin-top:0;}
+
+

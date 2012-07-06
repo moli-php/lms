@@ -1,0 +1,109 @@
+body{margin:0px; padding:0px;}
+.bookmark_links{text-decoration:none;color:#666;}
+#bookmark_nav{cursor:pointer;float:right;width:15px;margin:60px 10px 0;}
+#bookmark_main{display:none;width:220px;float:left;}
+#fl_slider_wrap_con {position:relative;width:100%;border-left:0;}
+#fl_slider_wrap{}
+#fl_slider {position:fixed;left:0;z-index:3;/**width:220px;**/padding:10px 6px 10px 0;height:364px;background:#fff;border:1px solid #cbcfce;display:inline-block;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-top-right-radius: 7px;
+    border-top-right-radius: 7px;
+    -webkit-border-bottom-right-radius: 7px;
+    -moz-border-bottom-right-radius: 7px;
+    border-bottom-right-radius: 7px;}
+#fl_container {height:200px;overflow:auto;padding:5px;border:1px solid #cbcfce;border-left:0;border-top-right-radius:5px;border-bottom-right-radius:5px;display:block;}
+#fl_slider .input_btn {float:left;padding-left:5px;height:25px;margin:10px 0 0 44px;color:#666;background:url([IMG]/bg_button.gif) no-repeat left 0;border-radius:5px;border:0;cursor:pointer;}
+#fl_slider .input_btn span {width:133px;height:25px;text-align:center;background:url(images/bg_button.gif) no-repeat right 0;display:block;}
+#fl_slider .input_txt {width:206px;height:20px;padding-left:5px;color:#666;font-size:0.8em;font-family:Verdana;margin:0 0 10px 6px;border:1px solid #cbcfce;}
+#fl_slider .input_txt2 {margin:10px 0 0 6px;}
+#fl_menu {position:absolute; top:50px; left:0px; z-index:9999; width:150px; height:50px;}
+#fl_container ul {margin:0;padding:0;list-style-type:none;overflow:hidden;}
+#fl_container ul li {clear:both;margin-top:5px;overflow:hidden;margin-left: 0px;}
+#fl_container ul li:hover {background-color:#FCFAEB;cursor:pointer;}
+#fl_container ul li p {float:left;width:150px;text-align:center;color:#666;font-size:0.9em;font-family:Verdana,Arial,Sans-serif;}
+#fl_container ul li a span {display:none;}
+.close_btn{float: left;margin-left: 0px;display: none;}
+
+/** big icons **/
+.big_icon {float:right;width:32px;height:32px;margin:0 5px;display:inline-block;background:url([IMG]/icon_32x32.png);background-repeat:no-repeat;}
+.big_icon_blip {background-position:0 0;}
+.big_icon_blipfm {background-position:0 -32px;}
+.big_icon_buzz {background-position:0 -64px;}
+.big_icon_delicious {background-position:0 -96px;}
+.big_icon_deviantart {background-position:0 -128px;}
+.big_icon_digg {background-position:0 -160px;}
+.big_icon_facebook {background-position:0 -192px;}
+.big_icon_flaker {background-position:0 -224px;}
+.big_icon_flickr {background-position:0 -256px;}
+.big_icon_formspringme {background-position:0 -288px;}
+.big_icon_friendconnect {background-position:0 -320px;}
+.big_icon_friendfeed {background-position:0 -352px;}
+.big_icon_goldenline {background-position:0 -384px;}
+.big_icon_googleplus {background-position:0 -416px;}
+.big_icon_grono {background-position:0 -448px;}
+.big_icon_imdb {background-position:0 -480px;}
+.big_icon_ising {background-position:0 -512px;}
+.big_icon_kciuk {background-position:0 -544px;}
+.big_icon_lastfm {background-position:0 -576px;}
+.big_icon_linkedin {background-position:0 -608px;}
+.big_icon_myspace {background-position:0 -640px;}
+.big_icon_naszaklasa {background-position:0 -672px;}
+.big_icon_networkedblogs {background-position:0 -704px;}
+.big_icon_newsletter {background-position:0 -736px;}
+.big_icon_orkut {background-position:0 -768px;}
+.big_icon_panoramio {background-position:0 -800px;}
+.big_icon_picasa {background-position:0 -832px;}
+.big_icon_rss {background-position:0 -864px;}
+.big_icon_sledzik {background-position:0 -896px;}
+.big_icon_soup {background-position:0 -928px;}
+.big_icon_spinacz {background-position:0 -960px;}
+.big_icon_tumblr {background-position:0 -992px;}
+.big_icon_twitter {background-position:0 -1024px;}
+.big_icon_unifyer {background-position:0 -1056px;}
+.big_icon_vimeo {background-position:0 -1088px;}
+.big_icon_widget {background-position:0 -1120px;}
+.big_icon_wykop {background-position:0 -1152px;}
+.big_icon_youtube {background-position:0 -1184px;}
+
+/** small icons **/
+.small_icon {float:right;width:20px;height:20px;margin:0 5px;display:inline-block;background:url([IMG]/icon_20x20.png) no-repeat 0 0;}
+.small_icon_blip {background-position:0 0 no-repeat;display:inline-block}
+.small_icon_blipfm {background-position:0 -20px no-repeat;display:inline-block}
+.small_icon_buzz {background-position:0 -40px no-repeat;display:inline-block}
+.small_icon_delicious {background-position:0 -60px no-repeat;display:inline-block}
+.small_icon_deviantart {background-position:0 -80px no-repeat;display:inline-block}
+.small_icon_digg {background-position:0 -100px no-repeat;display:inline-block}
+.small_icon_facebook {background-position:0 -120px no-repeat;display:inline-block}
+.small_icon_flaker {background-position:0 -140px no-repeat;display:inline-block}
+.small_icon_flickr {background-position:0 -160px no-repeat;display:inline-block}
+.small_icon_formspringme {background-position:0 -180px no-repeat;display:inline-block}
+.small_icon_friendconnect {background-position:0 -200px no-repeat;display:inline-block}
+.small_icon_friendfeed {background-position:0 -220px no-repeat;display:inline-block}
+.small_icon_goldenline {background-position:0 -240px no-repeat;display:inline-block}
+.small_icon_googleplus {background-position:0 -260px;}
+.small_icon_grono {background-position:0 -280px;}
+.small_icon_imdb {background-position:0 -300px;}
+.small_icon_ising {background-position:0 -320px;}
+.small_icon_kciuk {background-position:0 -340px;}
+.small_icon_lastfm {background-position:0 -360px;}
+.small_icon_linkedin {background-position:0 -380px;}
+.small_icon_myspace {background-position:0 -400px;}
+.small_icon_naszaklasa {background-position:0 -420px;}
+.small_icon_networkedblogs {background-position:0 -440px;}
+.small_icon_newsletter {background-position:0 -460px;}
+.small_icon_orkut {background-position:0 -480px;}
+.small_icon_panoramio {background-position:0 -500px;}
+.small_icon_picasa {background-position:0 -520px;}
+.small_icon_rss {background-position:0 -540px;}
+.small_icon_sledzik {background-position:0 -560px;}
+.small_icon_soup {background-position:0 -580px;}
+.small_icon_spinacz {background-position:0 -600px;}
+.small_icon_tumblr {background-position:0 -620px;}
+.small_icon_twitter {background-position:0 -640px;}
+.small_icon_unifyer {background-position:0 -660px;}
+.small_icon_vimeo {background-position:0 -680px;}
+.small_icon_widget {background-position:0 -700px;}
+.small_icon_wykop {background-position:0 -720px;}
+.small_icon_youtube {background-position:0 -740px;}
+
+.content{width:520px; margin:50px auto;}

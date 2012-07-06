@@ -1,0 +1,12 @@
+/*product_list*/
+#container table.product_search{width:100%;padding:5px;margin-bottom:10px;border:1px solid #CCC;background-color:#fff}
+#container table.product_search td{height:25px;padding-left:10px;text-align:left}
+#container table.product_search td input.product_name{width:300px;border:1px solid #ccc}
+#container table.product_search td.class_period, #container table.product_search td.radio{text-align:left}
+#container table.product_search th{text-align:left}
+/*add_product*/
+#container table.add_product{display:block;margin:0 0 40px;text-align:left;vertical-align:top}
+#container .add_product, #container .add_info{display:inline-block;margin-top:20px}
+#container .add_product td, #container .add_info td{height:30px}
+#container  input.product_input{width:298px;border: 1px solid #CCC;color:#777}
+#container .add_product textarea.productdescription{width:298px;height:300px;border: 1px solid #CCCCCC;color:#777777;resize:none}

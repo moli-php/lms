@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<adminmenus> 
+    <menu name="Poll Widget" param="PollwidgetPagePollList" use_most_action="Y"> 
+        <page lang="pollwidget" param="PollwidgetPagePollAdd" use_most_action="Y" />
+        <page lang="pollwidget" param="PollwidgetPagePollEdit" use_most_action="Y" />
+        <page lang="pollwidget" param="PollwidgetPagePollResult" use_most_action="Y" />
+    </menu>
+</adminmenus>

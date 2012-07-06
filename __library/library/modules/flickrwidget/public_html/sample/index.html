@@ -1,0 +1,59 @@
+<input type="hidden" id="flickr_plugin_dir_hidden2" value="{$sPgDir}" />
+<div id="pg_flickr_wrap1">
+    <h4>Flickr</h4>
+    <div class="pg_flickr_wrap2">
+        {if $aPhoto|@count gt 0}<p style="margin-top:10px;margin-bottom:5px;">Photo collection of <strong>{$sFlickrId}</strong></p>
+            {if $iDispType eq "0"}
+            <div class="{$sClassDiv}">
+                <ul class="{$sClassUl}">
+                    {foreach from=$aPhoto item=photo name=list}
+                    <li {if $photo.no % 3 == 0 AND $aPhoto|@count lt 7}style="margin-right:0 !important;"{/if}><a href="{$photo._href}" {if $iDispTarget eq "0"}target="_blank"{else} rel="{$photo.href}"{/if} title="{$photo.title}"><img src="{$photo.src}" alt="{$photo.title}"/></a></li>
+                    {foreachelse}
+                    <li>Flickr image is not ready.</li>
+                    {/foreach}
+                </ul>
+            </div>
+            {else}
+            <div class="gallery_wrap">
+                <button class="prev {$sCarouselBtnClass}" style="border:0;"></button>
+                {if $aPhoto|@count neq 0}
+                    {if $aPhoto|@count gt 4}
+                    <div class="pg_images_holder">
+                        <ul>
+                        {foreach from=$aPhoto item=photo name=list}
+                        <li style="margin:2px !important;list-style:none;"><a href="{$photo._href}" {if $iDispTarget eq "0"}target="_blank"{else} rel="{$photo.href}"{/if} title="{$photo.title}"><img src="{$photo.src}" alt="{$photo.title}" width="40" height="40"/></a></li>
+                        {/foreach}  
+                        </ul>
+                    </div>
+                    {else}
+                    <div class="pg_images_holder2">
+                        <ul>
+                        {foreach from=$aPhoto item=photo name=list}
+                        <li style="margin:2px !important;list-style:none;"><a href="{$photo._href}" {if $iDispTarget eq "0"}target="_blank"{else} rel="{$photo.href}"{/if} title="{$photo.title}"><img src="{$photo.src}" alt="{$photo.title}" width="40" height="40"/></a></li>
+                        {/foreach}  
+                        </ul>
+                    </div>
+                    {/if}
+                {else}
+                <div class="pg_gallery_wrap1">
+                    <ul class="pg_gallery1">
+                        <li>Flickr image is not ready.</li> 
+                    </ul>
+                </div>
+                {/if}
+                <button class="next {$sCarouselBtnClass}" style="border:0;"></button>
+            {/if}
+            </div>
+        {else}
+        <div class="pg_gallery_wrap1">
+            <ul class="pg_gallery1">
+                <li>Flickr image is not ready.</li> 
+            </ul>
+        </div>
+        {/if}
+    </div>
+</div>
+
+<input type="hidden" id="flickr_disp_target_hidden" value="{$iDispTarget}" />
+<input type="hidden" id="flickr_disp_type_hidden" value="{$iDispType}" />
+<input type="hidden" id="flickr_plugin_dir_hidden" value="{$sPgDir}" />

@@ -1,0 +1,517 @@
+<?php
+
+/**
+* Database Model
+* @version 1.1
+*
+* utilDbclass
+*/
+
+require_once ('conf.func.php');
+require_once ('utilDbAdapter.php');
+require_once ('utilDbDriverCommon.php');
+require_once ('utilDbDriverInterface.php');
+require_once ('utilDbDriverMysql.php');
+require_once ('utilDbUtility.php');
+require_once ('utilSplClass.php');
+
+class Model
+{
+	private $str;
+	private $sReturnRowType = '';
+	
+	 /**
+     * Model Utility
+     * @var utilDbUtility
+     */
+    protected $util;
+
+    /**
+     * Database PDO Driver
+     * @var utilDbDriverCommon
+     */
+    protected $dbDriver;
+
+    /**
+     * @param	Array	$aDSN				DSN Info
+     */
+    public function __construct()
+    {
+        $aDSN = array(
+            'driver' => COMMON_DB_TYPE,
+            'host' => COMMON_DB_HOST,
+            'id' => COMMON_DB_USER,
+            'dbname' => COMMON_DB_NAME,
+            'passwd' => COMMON_DB_PASSWD,
+            'port' => COMMON_DB_PORT
+        );
+
+			$this->util = utilDbUtility::getInstance($aDSN);
+
+			$this->dbDriver = utilDbAdapter::dbInstance(
+            $this->util->getDsn(),
+            $this->util->getUsername(),
+            $this->util->getPassword(),
+            array(),
+            $this->util->getDriver(),
+            $aDSN
+        );
+
+        /* Debug Mode Setting - Warning Message Display */
+        // if (IS_TEST === true) $this->dbDriver->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+        // if (IS_TEST === true) $this->dbDriver->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        $this->__initBefore();
+
+        $this->init();
+
+    }
+
+    protected function __initBefore() {}
+
+    protected function init() {}
+
+    /**
+     * @link	http://wiki.simplexi.com:8080/pages/viewpage.action?pageId=12475899
+     *
+     * @param	String	$sSql				Execute Query
+     * @param	String	$sType				exec|row|rows, UTIL_DB_RESULT_EXEC|UTIL_DB_RESULT_ROW|UTIL_DB_RESULT_ROWS
+     * @return	Mixed or false(Boolean)
+     *
+     */
+    protected function query($sSql, $sType=UTIL_DB_RESULT_ROWS)
+    {
+        $sType = strtolower($sType);
+        if (strcasecmp($sType, UTIL_DB_RESULT_EXEC)==0 || $this->isSelect($sSql)===false) {
+            $mResult = $this->dbDriver->exec($sSql);
+            return $mResult;
+        } else {
+            $mResult = $this->dbDriver->query($sSql, $sType);
+            return $mResult;
+        }
+    }
+
+    /**
+     * Is... Select Query
+     *
+     * @param	String	$sSql
+     *
+     * @return	Boolean
+     */
+    public function isSelect($sSql)
+    {
+        return (stripos($sSql, 'select')===false && stripos($sSql, 'call')===false)? false : true;
+	}
+
+
+    /**
+     * Last Insert ID
+     *
+     * @param	String	$sName	Sequence Object for the name
+     *
+     * @return	Mixed	string representing the row ID of the last row that was inserted into the database
+     * 					string representing the last value retrieved from the specified sequence object
+     *					If the PDO driver does not support this capability, PDO::lastInsertId() triggers an IM001 SQLSTATE
+     */
+    public function lastInsertId($sName=null)
+    {
+        return $this->dbDriver->lastInsertId($sName);
+    }
+
+    /**
+     * SQL Escape Statement
+
+     * @param	String	$sSql
+     *
+     * @return	String
+     */
+    public function escape($sSql)
+    {
+        return $this->dbDriver->escapeString($sSql);
+    }
+	
+	/**
+     * @return Bool true|false
+     */
+    final public function transactionStart()
+    {
+        return $this->dbDriver->beginTransaction();
+    }
+
+    /**
+     * @return Bool true|false
+     */
+    final public function transactionCommit()
+    {
+        return $this->dbDriver->commit();
+    }
+
+    /**
+     * @return Bool true|false
+     */
+    final public function transactionRollback()
+    {
+        return $this->dbDriver->rollBack();
+    }
+
+    /**
+     * @param unknown_type $sSql
+     */
+    private function _getType($sSql)
+    {
+        $sQueryType = $this->_getQueryType($sSql);
+
+        switch ($sQueryType) {
+            case 'select' :
+                $sResult = UTIL_DB_RESULT_ROWS;
+                break;
+            default :
+                $sResult = UTIL_DB_RESULT_EXEC;
+                break;
+        }
+
+        return $sResult;
+    }
+
+    /**
+     * Query
+     * @param string $sSql
+     * @return mixed SELECT, UPDATE, DELETE, INSERT
+     * */
+    private function _getQueryType($sSql)
+    {
+        preg_match("/^\s*(SELECT|UPDATE|DELETE|INSERT)[\s]/i", $sSql, $aMatches);
+        if (count($aMatches) > 1) return strtolower($aMatches[1]);
+        else return false;
+    }
+
+
+
+	/**
+	* generate sql insert statement.
+	* Implementation: 
+	*		$aData = array(
+	*			'field1' => 'value1',
+	*			'field2' => 'value2'			
+	*		);
+	*		$sql = utilDbQuery::getInsertQuery('table_name', $aData);
+	*
+	* @param string $table => table name
+	* @param array $aData => data to be inserted
+	* @return string result.
+	*/
+	public function getInsertQuery($table, $aData)
+    {
+        return $this->getInsertQueryLoop($table, array($aData));
+    }
+	
+	/**
+	* generate sql insert statement.
+	* Implementation: 
+	*		$aInsert[] = array('id' => '50', 'name' => 'boots');
+	*		$aInsert[] = array('id' => '51', 'name' => 'arden');
+	*		$aInsert[] = array('id' => '52', 'name' => 'sincere');
+	*		$aInsert[] = array('id' => '53', 'name' => 'ardval');
+	*		$sql = utilDbQuery::getInsertQueryLoop('table_name', $aInsert);
+	*
+	* @param string $table => table name
+	* @param array $aData => data to be inserted
+	* @return string result.
+	*/
+	public function insert($table, $aData)
+    {
+        if(!count($aData)) return false;
+
+        $i = 0;
+        $aInsert = array();
+        $aField = array();
+        foreach($aData as $sKey => $aValue) {
+
+	        $aInsertData = array();
+	        foreach($aValue as $field => $value)
+	        {
+	            if($i==0) $aField[] = $field;
+	            $aInsertData[] = self::checkValue($value);
+	        }
+	        $aInsert[] = '('.implode(',', $aInsertData).')';
+			$i++;
+        }
+
+		$this->str	= "INSERT INTO ".$table." (".implode(',', $aField).") VALUES ".implode(',', $aInsert);		
+        return $this;
+    }
+
+	/**
+	* generate sql insert statement.
+	* Implementation: 
+	*		$aUpdate = array(
+	*			'name' => 'updated'
+	*		);
+	*		$sWhere = "id = '52'";
+	*		$sql = utilDbQuery::getUpdateQuery($sTable, $aUpdate, $sWhere);
+	*
+	* @param string $table => table name
+	* @param array $aData => data to be updated
+	* @param string $sWhere(optional) => string condition
+	* @return string result.
+	*/
+	public function getUpdateQuery($table, $aData, $sWhere="")
+    {
+        $str = "";
+        if(!count($aData)) return false;
+
+        foreach($aData as $field => $value)
+        {
+            $str .= $field." = ".$this->checkValue($value).",";
+        }
+        return "UPDATE ".$table." SET ".substr($str, 0, -1)." ".($sWhere ? " WHERE ".$sWhere : "");
+    }
+
+	
+	private function checkValue($value){
+
+        if($value == "null" || strtolower($value) == "now()")
+		{
+            return $value;
+        }
+		
+        switch (strtolower(gettype($value)))
+		{
+            case 'string':
+                settype($value, 'string');
+                $value = "'".mysql_escape_string($value)."'";
+                break;
+            
+			case 'integer':
+                settype($value, 'integer');
+                break;
+            case 'double' :
+            
+			case 'float' :
+                settype($value, 'float');
+                break;
+            
+			case 'boolean':
+                settype($value, 'boolean');
+                break;
+            
+			case 'array':
+                $value = "'".mysql_escape_string(implode(',', $value))."'";
+                break;
+            
+			case 'null' :
+                $value = 'null';
+                break;
+        
+		}
+        return $value;
+    }
+
+	final public function sys_query($sSql, $sType=null)
+    {
+        $mResult = $this->dbDriver->query($sSql, $sType);
+
+        return $mResult;
+    }
+	
+	/**
+     * Select Function
+     * @example $sql->select('mytable',array('first_name','last_name'),' where idx = 1')
+     * @return Bool array
+     */	
+	final public function select( $sTblName , $aTblFields = NULL , $sWhereClause = NULL )
+	{
+		$sSql = "";
+		$sFrom = " FROM " . $sTblName;
+		$sFields = "";
+		
+		if( !$sTblName )
+		{
+			return FALSE;
+		}
+		
+		$sSelect = $this->_fieldsClauseBuilder($aTblFields);		
+		
+		$sWhere = $this->_whereClauseBuilder($sWhereClause);
+		
+		$this->str = $sSelect . $sFrom . $sWhere;
+		
+		$this->sReturnRowType= 'rows';
+
+		return $this;
+	}
+	
+	final public function select1( $sTblName , $aTblFields = NULL , $sWhereClause = NULL )
+	{
+		$sSql = "";
+		$sFrom = " FROM " . $sTblName;
+		$sFields = "";
+		
+		if( !$sTblName )
+		{
+			return FALSE;
+		}
+		
+		$sSelect = $this->_fieldsClauseBuilder($aTblFields);		
+		
+		$sWhere = $this->_whereClauseBuilder($sWhereClause);
+		
+		$this->str = $sSelect . $sFrom . $sWhere;
+		
+		$this->sReturnRowType= 'rows';
+
+		return $this;
+	}	
+	
+	final public function limit( $iLimit , $iOffset )
+	{
+		
+		$this->str = $this->str . " LIMIT {$iLimit}, {$iOffset} ";
+		return $this;
+	}
+	
+	final public function orderBy( $sField , $sSortType )
+	{
+		$this->str = $this->str . " ORDER BY {$sField} " . strtoupper($sSortType);
+		return $this;
+	}	
+	
+	/**
+     * Select All Function
+     * @example $sql->selectAll('mytable')
+     * @return Bool array
+     */		
+	final public function selectAll( $sTblName,$aTblFields = NULL )
+	{
+		$sSql = "";
+		$sFrom = " FROM " . $sTblName;
+		
+		if( !$sTblName )
+		{
+			return FALSE;
+		}
+		$sSelect = $this->_fieldsClauseBuilder( $aTblFields );
+		$this->str = $sSelect . $sFrom;
+		$this->sReturnRowType= 'rows';
+		return $this;
+	}	
+	
+	/**
+     * Select Row Function
+     * @example $sql->selectRow('mytable',array('first_name','last_name'),' where idx = 1')
+     * @return Bool array
+     */	
+	final public function selectRow( $sTblName , $aTblFields = NULL , $sWhereClause = NULL )
+	{
+		$sSql = "";
+		$sFrom = " FROM " . $sTblName;
+
+		if( !$sTblName )
+		{
+			return FALSE;
+		}
+		
+		$sSelect = $this->_fieldsClauseBuilder( $aTblFields );
+		
+		$sWhere = $this->_whereClauseBuilder( $sWhereClause );
+		
+		$this->str = $sSelect . $sFrom . $sWhere;
+		
+		$this->sReturnRowType= 'row';
+		
+		return $this;
+	}	
+
+	
+	/**
+     * Where Clause Generator for where
+     * @example where idx = 1 AND is_sequence = TRUE
+     * @return Bool string
+     */		
+	private function _whereClauseBuilder($sWhereClause)
+	{
+		return ( $sWhereClause ) ? " WHERE $sWhereClause " : " ";
+	}
+
+	/**
+     * Field Clause Generator for database table fields
+     * @example title,location,start_date,end_date
+     * @return Bool string
+     */	
+	private function _fieldsClauseBuilder($aSTblFields)
+	{
+		$sFields = "";
+		
+		if( $aSTblFields && is_array( $aSTblFields ) )
+		{
+			$sFields = implode( ' , ' , $aSTblFields );
+		}
+		
+		if(is_string($aSTblFields) && !is_null($aSTblFields))
+		{
+			$sFields = $aSTblFields;
+		}
+		
+		return " SELECT " . ( ( $sFields ) ? $sFields : " * "  );
+	}
+	
+	// Delete all selected records
+	final public function deleteAll($sTbl)
+	{
+		if(!$sTbl) return false;
+		$this->str	= 'TRUNCATE ' . $sTbl;
+		return $this;
+	}
+	
+	
+	// Delete selected records
+	final public function deleteBy($sTbl, $sWhere)
+	{
+		if(!$sTbl || !$sWhere) return false;
+
+		$this->str	= 'DELETE FROM '.$sTbl.' WHERE '.$sWhere;
+		return $this;
+	}
+
+
+	// Update selected records
+	public function update($table, $aData, $sWhere="")
+	{
+		$str = "";
+		if(!count($aData)) return false;
+
+		foreach($aData as $field => $value)
+		{
+			$str .= $field." = ".$this->checkValue($value).",";
+		}
+		
+		$this->str	= "UPDATE ".$table." SET ".substr($str, 0, -1)." ".($sWhere ? " WHERE ".$sWhere : "");
+		
+		return $this; 
+	}
+
+	
+	// Debug method chain
+	final public function vs()
+	{	
+		echo $this->str;
+	}	
+	
+	// Execute method chain
+	final public function execute()
+	{	
+		switch($this->sReturnRowType)
+		{
+			case'rows':
+				return $this->query($this->str,'rows');
+			break;
+
+			case'row':
+				return $this->query($this->str,'row');
+			break;
+			
+			default:	
+				return $this->query($this->str);
+		}
+	}	
+}

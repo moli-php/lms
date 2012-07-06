@@ -1,0 +1,193 @@
+.class_list .table_entry {padding:5px;border-radius:5px;background-color:#ddf5d5;border:2px dashed #9bbb90;min-height:120px}
+.class_list .red {background-color:#b86363;border-color:#822727;color:#fff}
+.class_list .blue {background-color:#8bc7f5;border-color:#1d5c8d}
+.class_list .yellow {background-color:#fcd020;border-color:#fdb10e}
+.class_list .pink {background-color:#eda6e4;border-color:#db5aca}
+.class_list .purple {background-color:#851777;border-color:#590c4f;color:#fff}
+.class_list .grey {background-color:#9b9b9b;border-color:#6b6b6b;color:#fff}
+.class_list li {text-align:left}
+.class_list strong {width:100%;font-size:10px;display:inline-block}
+.class_list td {vertical-align:middle}
+.management_control {width:90px;margin-left:14px;display:inline-block}
+.management_control li{float:left;margin:0 5px 10px 0}
+
+.management_control .btn_management {width:20px;text-align:center;padding:0;font:11px "Lucida Sans Unicode", "Lucida Grande", Arial;background:url(../../images/schedule/table_headbg.png) left bottom repeat-x #fefefe; color:#767575 !important;border:1px solid #999;border-radius:5px;-moz-border-radius:5px;display:inline-block}
+.management_control .btn_management:hover {text-decoration:none;color:#Dc4e22 !important}
+.fix3 {float:left;width:110px;margin-right:2px;display:inline-block}
+.fix4 {width:98%}
+.product_search select {width:99%}
+
+.add_class select {width:300px}
+.add_class .add_type {width:100px;margin-right:5px;display:inline-block}
+.add_class .add_type label {width:80px;display:inline-block}
+.add_class_list .user_id {margin-left:5px;color:#e0951e}
+.add_class_list p {margin-bottom:10px}
+
+.generate_schedule_content .content, .schedule_mgmt_content .content{width:100%;margin-top:20px;display:inline-block}
+.content  .user_header {width:100%;margin:0 0 10px 0;padding:5px 0;background-color:#edd9a3}
+.content  .user_header strong {font-size:14px;margin:0 10px;color:#53220a}
+.content  .user_header em {font-size:14px;margin-right:10px;color:#db5d1f}
+.content  .schedule_info {width:98%;margin:0 0 20px 15px;text-align:left;display:inline-block}
+.content  .schedule_info td {padding:5px 10px}
+.content  .schedule_info th {background-color:#e8e4cb;padding:5px 5px}
+.content  .schedule_info p {margin-bottom:5px}
+.content  .schedule_info select {width:98%}
+.content  .schedule_info li label {margin:-2px 0 0 5px;font-size:12px}
+.content  .schedule_info li {float:left;width:50px;margin-right:5px}
+.content  .schedule_info .select_fix {width:210px;margin-left:9px}
+.content  .schedule_info .select_fix2 {width:90px;margin-left:9px}
+.content  .schedule_info span {font-size:10px;font-weight:normal}
+
+.center_wrap {text-align:center;width:100%}
+.generated_schedule {width:auto;text-align:center;display:inline-block}
+.generated_schedule .disabled {background-color:#e2a6a6;color:#ba1414}
+.generated_schedule th {text-align:center;padding:5px 0;background-color:#496392;color:#fff}
+.generated_schedule td {height:20px;background-color:#d4def0}
+.generated_schedule th.time_hour {background-color:#88a7dc}
+
+/* add for schedule management */
+.class_list_tab {width:100%;margin-top:10px;display:inline-block}
+.class_list_tab li {float:left;padding:5px 8px;margin-right:5px;background-color:#f3dfb5}/* background-color:#d2a95b */
+.class_list_tab li.active {background-color:#d2a95b;color:#393939}
+.content .choose_class {width:98%;margin:0 0 20px 10px;display:inline-block}
+.content .choose_class span {margin-left:20px}
+.content .choose_class label {width:80px;margin-right:10px}
+.content .choose_class select {width:220px}
+
+.calendar_control {width:98%;padding:5px 0;margin:10px 12px 0;background-color:#d7e5fe;border:1px solid #6281bb;border-radius:5px;display:inline-block}
+.calendar_control ul {margin-left:20px}
+.calendar_control li {float:left;margin-right:10px}
+.calendar_control p {margin-top:2px;color:#000;}
+.calendar_control select {margin-top:1px}
+.calendar_control .btn,.student_data .buttons .btn {padding:3px 5px;color:#fff;display:inline-block}
+.calendar_control .waiting {background-color:#12369e}
+.calendar_control .attend {background-color:#0c5c08}
+.calendar_control .absent {background-color:#be1717}
+.calendar_control .canceled {background-color:#ef710b}
+.calendar_control .no_class {background-color:#4c270a}
+.calendar_control .postponed {background-color:#a20f9d}
+.calendar_control .pn,.student_data .buttons .pn {background-color:#1db21a;border-radius:5px}
+.calendar_control .search,.calendar_control .submit {background-color:#525252;border-radius:5px}
+
+.schedule_class_calendar {margin:20px auto 20px;text-align:center}
+.schedule_class_calendar th {height:40px;background-color:#9aa8b8;color:#fff;text-transform:uppercase;font-size:14px}
+.schedule_class_calendar td {width:150px;height:120px;padding-top:10px;background-color:#dbe3ed;color:#000;font-size:12px;vertical-align:top;font-weight:bold}
+.schedule_class_calendar td.null {background-color:#a8afb7}
+.schedule_class_calendar td.current {background-color:#fbd009}
+.schedule_class_calendar td span {margin-top:60px;display:inline-block}
+.schedule_class_calendar td .time_content {position:relative;width:180px;height:120px;font-size:42px;font-weight:bold;vertical-align:middle;display:inline-block}
+.schedule_class_calendar td .time_content div {position:absolute;top:10px;left:0;width:180px;font-weight:normal;font-size:12px;display:inline-block;vertical-align:middle}
+.schedule_class_calendar td ul li {margin:4px 0;}
+.schedule_class_calendar td ul li a {color:#1f497d;}
+.schedule_class_calendar .student_name {text-align:left;padding-left:20px;}
+.schedule_class_calendar .student_name li {margin:0;}
+.schedule_class_calendar .student_name li span {font-weight:normal;}
+.schedule_class_calendar .student_name li .phone_class {margin-top:0;background-color:#ff0000;color:#000;}
+.schedule_class_calendar .student_name li .cam_english {background-color:#00b050;color:#000;}
+.schedule_class_calendar .student_name li .level_test {background-color:#ffff00;color:#000;}
+.schedule_class_calendar .student_name li {width:100%;margin-bottom:5px;display:inline-block}
+.schedule_class_calendar .student_name li {color:#1f497d;font-size:14px}
+.schedule_class_calendar .student_name li span {margin-top:0 !important;font-size:14px}
+.schedule_class_calendar .student_name li .box_wait {color:#4f81bd;}
+.schedule_class_calendar .student_name li .box_absent {color:#ff0000;}
+.schedule_class_calendar .student_name li .box_cancel {color:#000;}
+.schedule_class_calendar .student_name li .box_attend {color:#069f02;}
+.schedule_class_calendar .student_name li span {font-weight:normal;}
+.schedule_class_calendar .student_name li .waiting {background-color:#4f81bd;color:#000;}
+.schedule_class_calendar .student_name li .absent {background-color:#ff0000;color:#000;}
+.schedule_class_calendar .student_name li .cancel {background-color:#000;color:#fff;}
+.schedule_class_calendar .student_name li .attend {background-color:#00b050;color:#000;}
+.schedule_class_calendar .student_name li .delayed {background-color:#7030a0;color:#000;}
+.schedule_class_calendar .student_time {color:#ff0000;}
+.schedule_class_calendar .student_type {padding-top:0;}
+.schedule_class_calendar .student_type .icon_type {position:relative;width:170px;padding-bottom:10px;/**height:70px;padding:50px 0 0 0;**/}
+.schedule_class_calendar .student_type .icon_type p.clock {position:absolute;top:50px;width:170px;font-size:40px;z-index:2;margin:0 auto;}
+.schedule_class_calendar .student_type .icon_type .icons {position:relative;z-index:5;top:5px;left:70px;/****/}
+.schedule_class_calendar .student_type a {display:block;overflow:hidden;width:30px;height:35px;margin:0;}
+.schedule_class_calendar .student_type a span {display:none;}
+.schedule_class_calendar .student_type .alarm {background:url(../../images/schedule/cam.gif) no-repeat 0 0;}
+.schedule_class_calendar .student_type .mobile {margin-bottom:5px;background:url(../../images/schedule/phone_bg.png) no-repeat 0 0;}
+
+.student_data {overflow:hidden;width:505px;padding:10px;background-color:#fff;border:1px solid #dedede;}
+.student_data .name {float:left;font-size:14px;font-weight:bold;}
+.student_data .buttons {float:right;}
+.student_data .sched_details {clear:both;overflow:hidden;padding-top:15px;}
+.student_data .sched_details tr {text-align:center;}
+.student_data .sched_details th {border-top:1px solid #dedede;border-left:1px solid #dedede;}
+.student_data .sched_details td {border:1px solid #dedede;border-bottom:0;}
+.student_data .sched_details tr ul {overflow:hidden;width:200px;margin:0 auto;}
+.student_data .sched_details tr ul li {float:left;width:60px;}
+.student_data .sched_details .comment {border-right:1px solid #dedede;}
+.student_data .sched_details textarea {width:493px;height:95px;padding:5px 0 0 5px;resize:none;border:1px solid #dedede;border-top:0;border-left:0;}
+.student_data .evaluation_list {float:left;width:99%;margin:5px 0 5px;text-align:center;border:1px solid #dedede;}
+.student_data .evaluation_list tr th {height:30px;border-left:1px solid #dedede;background:#fefefe url(../../images/schedule/table_headbg.png) repeat-x left bottom;font-size:10px;}
+.student_data .evaluation_list tr td {height:20px;padding:5px 5px;border-top:1px solid #dedede;border-left:1px solid #dedede;background-color:#fff;}
+.student_data .evaluation_list tr .first {border-left:0;}
+.student_data .submit {float:right !important;margin:10px 5px 0 0 !important;}
+
+.popup_window .buttons .btn_close {margin-left:20px !important;}
+.popup_window .table_popup .textarea {width:345px !important;}
+.popup_window .table_popup td .fix2 {width:195px;}
+.popup_window .table_popup img {float:left;margin-right:30px;}
+.popup_window .table_popup label {margin-right:51px;}
+.popup_window .table_popup input.fix {width:255px !important;}
+
+.schedule_mgmt_content .management_control  {margin:2px 0 0 0;text-align:center}
+.schedule_mgmt_content .management_control li {float:none;margin:0;text-align:center}
+
+.no_class {width:98%;padding:10px 0;text-align:center;background-color:#eea210;display:inline-block}
+.no_class p {font-weight:bold;color:#fff;font-size:14px}
+
+.sched_details tr td input {margin:5px 10px 0;}
+.sched_details tr td {padding:3px 0;}
+.sched_details tr td input.first {margin-left:0;}
+.sched_class {margin-top:10px;}
+.sched_class p {overflow:hidden;clear:both;margin-top:5px;font-weight:bold;}
+.sched_class ul {float:left;margin:10px 10px 0 0;}
+.sched_class ul li {float:left;}
+.sched_class .sched_breadcrumb {width:115px;float:left;margin-top:10px;font-weight:bold;}
+.sched_class .attach_file {clear:both;}
+.sched_class .attach_file tr td {padding:5px 0;}
+
+
+.popup_window2 {margin:0 !important}
+
+
+/* new design */
+.btn_message {display:block;float:right;width:60px;height:15px;padding-top:45px;color:#131313;text-decoration:none !important;text-align:center;background:url(../../images/schedule/mail_bg.png) no-repeat 0 0;}
+
+/* pop up */
+.schedule_management_popup li {float:left;width:80px}
+.schedule_management_popup li.margin_fix {margin-right:15px}
+.schedule_management_popup li label {margin-left:5px}
+.schedule_management_popup .label_fix {width:80px;display:inline-block}
+.schedule_management_popup .label_fix2 {width:60px;display:inline-block}
+.schedule_management_popup textarea {width:240px;height:120px;resize:none;}
+
+/* pop up calendar generate schedule*/
+.schedule_calendar_popup .control {width:100%;height:17px;margin-bottom:10px;display:inline-block}
+.schedule_calendar_popup .control li {float:left}
+.schedule_calendar_popup .control .date {width:98px;margin-top:5px;text-align:center;color:#fb8109;display:inline-block}
+.schedule_calendar_popup .control li.next {float:right}
+.schedule_calendar_popup .control .next a {width:18px;height:17px;text-indent:9999;font-size:0;background:url(../../images/schedule/next.jpg) left top no-repeat;display:inline-block}
+.schedule_calendar_popup .control .prev a {width:18px;height:17px;text-indent:9999;font-size:0;background:url(../../images/schedule/prev.jpg) left top no-repeat;display:inline-block}
+.schedule_calendar_popup table {text-align:center}
+.schedule_calendar_popup table th {height:18px;background-color:#9ebecb;color:#fff}
+.schedule_calendar_popup table td {height:20px;background-color:#d4d4d4}
+.schedule_calendar_popup .conflict {background-color:#9b0e0e}
+.schedule_calendar_popup .conflict a {color:#fff}
+.schedule_calendar_popup .assigned {background-color:#367ab4}
+.schedule_calendar_popup .assigned a {color:#fff}
+.schedule_calendar_popup .today {background-color:#f2c334}
+.schedule_calendar_popup .today a {color:#fff}
+
+.class_list_popup p {float:left;width:98%;margin-bottom:10px;text-align:left;display:inline}
+.class_list_popup label {width:80px;text-align:left;padding:0;margin:0;display:inline-block}
+.class_list_popup select {width:200px;margin-left:-3px}
+.class_list_popup .btn_calendar {float:right;margin-left:10px}
+.class_list_popup .value {margin-left:10px}
+
+
+/* level test */
+.level_test tr.focus td {background-color:#d5971f !important}
+.time_fix1 select {width:110px}
